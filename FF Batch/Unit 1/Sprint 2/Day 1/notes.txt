@@ -1,0 +1,22 @@
+How many ways can you operate/use computers?
+--------------------------------------------
+There are following two ways to use computer:
+1. GUI - Graphical User Interface
+- using graphics like images, icons, and other animated icons/models to user computer.
+2. CLI - Command Line Interface
+- using commands(English commands), you can also operate computer
+
+
+Example:
+
+GUI:
+--
+
+  User(Chintu)  --> App(Notepad/Whatsapp) --> OS--->  1010(Binary Language)
+                                                      Hardware[ RAM + CPU ]
+CLI:
+---
+
+ User(Chintu)  --> CLI --> OS--->  1010(Binary Language)
+                                    Hardware[ RAM + CPU ]
+
