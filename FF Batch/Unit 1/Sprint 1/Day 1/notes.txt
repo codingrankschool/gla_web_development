@@ -1,0 +1,4 @@
+Introduction to Web Dev and Its key component
+HTML - Provide Structure to Web Page
+CSS - Add colors and design
+JS - Add interactivity to the Web page

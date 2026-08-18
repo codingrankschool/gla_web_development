@@ -1,0 +1,903 @@
+    HOW MANY WAYS CAN YOU OPERATE COMPUTER?
+    ---------?
+    1. Using GUI(Graphical User Interface) - Customers/Users
+    2. Using CLI(Command Line Interface) - Developers/Engineers
+
+ 
+    Example:
+    1. Using GUI(Graphical User Interface) - Customers/Users
+    - Using Animations, Images, and just by interacting and clicking on
+      this we generate operate computer in GUI
+
+                                                Binary Langauge(101010101)
+                                                 ---------
+    User --> App(WhatsApp/Music Player) -> OS--> |RAM + CPU|
+                                                -----------
+
+
+    2. Using CLI(Command Line Interface) - Developers/Engineers
+     - Here you can operate computer with the help of commands
+
+
+    User--->CLI---> [ RAM  + CPU ]
+
+
+
+    ? - What do you do generally in your computer?
+      Examples: Creating Folders, Open applications, copy/paste, playing musics and
+      others
+
+
+      Let's do same tasks using CLI:
+      Commands:
+
+Microsoft Windows [Version 10.0.26200.8973]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\perse>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse
+
+08/14/2026  11:20 AM    <DIR>          .
+01/05/2025  09:54 PM    <DIR>          ..
+01/04/2025  12:25 PM             6,579 -1.14-windows.xml
+07/05/2026  02:19 AM    <DIR>          .ai_completion
+02/19/2025  08:05 PM    <DIR>          .android
+01/19/2026  02:35 PM    <DIR>          .arduinoIDE
+05/29/2026  10:35 AM    <DIR>          .aws
+03/21/2025  11:58 AM             4,665 .bash_history
+06/07/2026  10:11 AM    <DIR>          .bob
+06/07/2026  10:11 AM    <DIR>          .bobide
+09/06/2024  05:02 PM            21,908 .boto
+06/07/2026  10:38 AM    <DIR>          .cache
+06/07/2026  08:07 AM    <DIR>          .cagent
+08/09/2026  10:47 AM    <DIR>          .claude
+08/14/2026  11:20 AM            37,770 .claude.json
+06/07/2026  08:07 AM    <DIR>          .config
+06/07/2026  10:53 AM    <DIR>          .continue
+07/29/2026  10:32 AM    <DIR>          .copilot
+08/05/2026  10:30 AM    <DIR>          .cursor
+08/06/2026  05:33 PM    <DIR>          .docker
+12/21/2023  12:22 PM    <DIR>          .eclipse
+08/24/2025  12:00 AM                20 .erlang.cookie
+07/29/2026  12:10 PM    <DIR>          .gemini
+07/05/2026  02:19 AM               120 .gitconfig
+03/21/2025  11:37 AM                 0 .gitignore
+09/06/2024  05:09 PM    <DIR>          .gsutil
+12/29/2025  05:26 AM    <DIR>          .icube-remote-ssh
+12/15/2024  10:31 PM    <DIR>          .ipython
+05/29/2026  10:28 AM    <DIR>          .kiro
+07/20/2026  04:29 PM                20 .lesshst
+08/01/2026  11:40 PM    <DIR>          .m2
+02/11/2024  05:10 PM    <DIR>          .ms-ad
+08/12/2026  06:46 PM               402 .node_repl_history
+06/03/2026  11:27 AM                77 .npmrc
+06/07/2026  11:40 PM    <DIR>          .redis-for-vscode
+02/22/2024  05:17 PM    <DIR>          .ssh
+12/21/2023  12:28 PM    <DIR>          .sts4
+07/05/2026  10:34 AM    <DIR>          .trae
+01/01/2026  06:41 PM    <DIR>          .trae-aicc
+08/25/2025  03:35 PM             1,144 .viminfo
+12/21/2023  01:47 PM    <DIR>          .vscode
+05/31/2026  01:46 PM    <DIR>          .vscode-shared
+12/29/2025  05:26 AM    <DIR>          ai_completion
+01/07/2025  10:45 PM    <DIR>          Contacts
+01/19/2024  01:31 PM                13 demo.txt
+08/09/2026  09:54 PM    <DIR>          Desktop
+08/12/2026  08:02 PM    <DIR>          Documents
+08/13/2026  08:58 PM    <DIR>          Downloads
+01/07/2025  10:45 PM    <DIR>          Favorites
+06/01/2026  10:48 PM    <DIR>          IdeaProjects
+01/07/2025  10:45 PM    <DIR>          Links
+04/21/2026  10:29 AM    <DIR>          Music
+05/17/2024  09:02 AM    <DIR>          npm-cache
+07/07/2026  06:25 PM    <DIR>          OneDrive
+07/02/2026  11:53 AM    <DIR>          Pictures
+12/21/2023  07:12 PM    <DIR>          Postman
+01/07/2025  10:45 PM    <DIR>          Saved Games
+06/15/2026  09:40 PM    <DIR>          Searches
+08/22/2025  07:10 PM    <DIR>          Videos
+              12 File(s)         72,718 bytes
+              47 Dir(s)  38,634,639,360 bytes free
+
+C:\Users\perse>cd Desktop
+
+C:\Users\perse\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/09/2026  09:54 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+               9 Dir(s)  38,633,766,912 bytes free
+
+C:\Users\perse\Desktop>DIR
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/09/2026  09:54 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+               9 Dir(s)  38,633,242,624 bytes free
+
+C:\Users\perse\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/09/2026  09:54 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+               9 Dir(s)  38,633,242,624 bytes free
+
+C:\Users\perse\Desktop>cd .
+
+C:\Users\perse\Desktop>cd ..
+
+C:\Users\perse>cd  ..
+
+C:\Users>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users
+
+01/05/2025  09:54 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          perse
+01/05/2025  09:56 PM    <DIR>          Public
+               0 File(s)              0 bytes
+               3 Dir(s)  38,824,017,920 bytes free
+
+C:\Users>cd perse/desktop
+
+C:\Users\perse\Desktop>cd ../..
+
+C:\Users>cd perse
+
+C:\Users\perse>cd desktop
+
+C:\Users\perse\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/09/2026  09:54 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+               9 Dir(s)  38,819,344,384 bytes free
+
+C:\Users\perse\Desktop>cd odna
+
+C:\Users\perse\Desktop\odna>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop\odna
+
+08/07/2026  09:52 AM    <DIR>          .
+08/09/2026  09:54 PM    <DIR>          ..
+08/06/2026  04:18 PM    <DIR>          .claude
+08/06/2026  10:59 AM               283 .env
+08/06/2026  10:59 AM               820 .env.example
+08/01/2026  11:36 PM    <DIR>          .github
+08/06/2026  10:35 AM               260 .gitignore
+08/06/2026  11:11 AM            20,726 CLAUDE.md
+08/06/2026  03:27 PM             2,243 compose.yaml
+08/07/2026  09:52 AM    <DIR>          design-assets
+08/04/2026  08:29 AM    <DIR>          docs
+08/06/2026  05:24 PM    <DIR>          odna-backend
+08/08/2026  10:25 PM    <DIR>          odna-frontend
+08/06/2026  11:11 AM            16,158 PROJECT_STATUS.md
+               6 File(s)         40,490 bytes
+               8 Dir(s)  38,819,278,848 bytes free
+
+C:\Users\perse\Desktop\odna>cd /
+
+C:\>cd Users/perse/Desktop/odna
+
+C:\Users\perse\Desktop\odna>cd ..
+
+C:\Users\perse\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/09/2026  09:54 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+               9 Dir(s)  38,819,061,760 bytes free
+
+C:\Users\perse\Desktop>cd Notes
+
+C:\Users\perse\Desktop\Notes>cd ../odna
+
+C:\Users\perse\Desktop\odna>
+
+Microsoft Windows [Version 10.0.26200.8973]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\perse>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse
+
+08/14/2026  11:20 AM    <DIR>          .
+01/05/2025  09:54 PM    <DIR>          ..
+01/04/2025  12:25 PM             6,579 -1.14-windows.xml
+07/05/2026  02:19 AM    <DIR>          .ai_completion
+02/19/2025  08:05 PM    <DIR>          .android
+01/19/2026  02:35 PM    <DIR>          .arduinoIDE
+05/29/2026  10:35 AM    <DIR>          .aws
+03/21/2025  11:58 AM             4,665 .bash_history
+06/07/2026  10:11 AM    <DIR>          .bob
+06/07/2026  10:11 AM    <DIR>          .bobide
+09/06/2024  05:02 PM            21,908 .boto
+06/07/2026  10:38 AM    <DIR>          .cache
+06/07/2026  08:07 AM    <DIR>          .cagent
+08/09/2026  10:47 AM    <DIR>          .claude
+08/14/2026  11:20 AM            37,770 .claude.json
+06/07/2026  08:07 AM    <DIR>          .config
+06/07/2026  10:53 AM    <DIR>          .continue
+07/29/2026  10:32 AM    <DIR>          .copilot
+08/05/2026  10:30 AM    <DIR>          .cursor
+08/06/2026  05:33 PM    <DIR>          .docker
+12/21/2023  12:22 PM    <DIR>          .eclipse
+08/24/2025  12:00 AM                20 .erlang.cookie
+07/29/2026  12:10 PM    <DIR>          .gemini
+07/05/2026  02:19 AM               120 .gitconfig
+03/21/2025  11:37 AM                 0 .gitignore
+09/06/2024  05:09 PM    <DIR>          .gsutil
+12/29/2025  05:26 AM    <DIR>          .icube-remote-ssh
+12/15/2024  10:31 PM    <DIR>          .ipython
+05/29/2026  10:28 AM    <DIR>          .kiro
+07/20/2026  04:29 PM                20 .lesshst
+08/01/2026  11:40 PM    <DIR>          .m2
+02/11/2024  05:10 PM    <DIR>          .ms-ad
+08/12/2026  06:46 PM               402 .node_repl_history
+06/03/2026  11:27 AM                77 .npmrc
+06/07/2026  11:40 PM    <DIR>          .redis-for-vscode
+02/22/2024  05:17 PM    <DIR>          .ssh
+12/21/2023  12:28 PM    <DIR>          .sts4
+07/05/2026  10:34 AM    <DIR>          .trae
+01/01/2026  06:41 PM    <DIR>          .trae-aicc
+08/25/2025  03:35 PM             1,144 .viminfo
+12/21/2023  01:47 PM    <DIR>          .vscode
+05/31/2026  01:46 PM    <DIR>          .vscode-shared
+12/29/2025  05:26 AM    <DIR>          ai_completion
+01/07/2025  10:45 PM    <DIR>          Contacts
+01/19/2024  01:31 PM                13 demo.txt
+08/09/2026  09:54 PM    <DIR>          Desktop
+08/12/2026  08:02 PM    <DIR>          Documents
+08/13/2026  08:58 PM    <DIR>          Downloads
+01/07/2025  10:45 PM    <DIR>          Favorites
+06/01/2026  10:48 PM    <DIR>          IdeaProjects
+01/07/2025  10:45 PM    <DIR>          Links
+04/21/2026  10:29 AM    <DIR>          Music
+05/17/2024  09:02 AM    <DIR>          npm-cache
+07/07/2026  06:25 PM    <DIR>          OneDrive
+07/02/2026  11:53 AM    <DIR>          Pictures
+12/21/2023  07:12 PM    <DIR>          Postman
+01/07/2025  10:45 PM    <DIR>          Saved Games
+06/15/2026  09:40 PM    <DIR>          Searches
+08/22/2025  07:10 PM    <DIR>          Videos
+              12 File(s)         72,718 bytes
+              47 Dir(s)  38,634,639,360 bytes free
+
+C:\Users\perse>cd Desktop
+
+C:\Users\perse\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/09/2026  09:54 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+               9 Dir(s)  38,633,766,912 bytes free
+
+C:\Users\perse\Desktop>DIR
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/09/2026  09:54 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+               9 Dir(s)  38,633,242,624 bytes free
+
+C:\Users\perse\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/09/2026  09:54 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+               9 Dir(s)  38,633,242,624 bytes free
+
+C:\Users\perse\Desktop>cd .
+
+C:\Users\perse\Desktop>cd ..
+
+C:\Users\perse>cd  ..
+
+C:\Users>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users
+
+01/05/2025  09:54 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          perse
+01/05/2025  09:56 PM    <DIR>          Public
+               0 File(s)              0 bytes
+               3 Dir(s)  38,824,017,920 bytes free
+
+C:\Users>cd perse/desktop
+
+C:\Users\perse\Desktop>cd ../..
+
+C:\Users>cd perse
+
+C:\Users\perse>cd desktop
+
+C:\Users\perse\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/09/2026  09:54 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+               9 Dir(s)  38,819,344,384 bytes free
+
+C:\Users\perse\Desktop>cd odna
+
+C:\Users\perse\Desktop\odna>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop\odna
+
+08/07/2026  09:52 AM    <DIR>          .
+08/09/2026  09:54 PM    <DIR>          ..
+08/06/2026  04:18 PM    <DIR>          .claude
+08/06/2026  10:59 AM               283 .env
+08/06/2026  10:59 AM               820 .env.example
+08/01/2026  11:36 PM    <DIR>          .github
+08/06/2026  10:35 AM               260 .gitignore
+08/06/2026  11:11 AM            20,726 CLAUDE.md
+08/06/2026  03:27 PM             2,243 compose.yaml
+08/07/2026  09:52 AM    <DIR>          design-assets
+08/04/2026  08:29 AM    <DIR>          docs
+08/06/2026  05:24 PM    <DIR>          odna-backend
+08/08/2026  10:25 PM    <DIR>          odna-frontend
+08/06/2026  11:11 AM            16,158 PROJECT_STATUS.md
+               6 File(s)         40,490 bytes
+               8 Dir(s)  38,819,278,848 bytes free
+
+C:\Users\perse\Desktop\odna>cd /
+
+C:\>cd Users/perse/Desktop/odna
+
+C:\Users\perse\Desktop\odna>cd ..
+
+C:\Users\perse\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/09/2026  09:54 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+               9 Dir(s)  38,819,061,760 bytes free
+
+C:\Users\perse\Desktop>cd Notes
+
+C:\Users\perse\Desktop\Notes>cd ../odna
+
+C:\Users\perse\Desktop\odna>cd ..
+
+C:\Users\perse\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/09/2026  09:54 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+               9 Dir(s)  38,810,898,432 bytes free
+
+C:\Users\perse\Desktop>mkdir my folder
+
+C:\Users\perse\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/14/2026  03:13 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+08/14/2026  03:13 PM    <DIR>          folder
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+08/14/2026  03:13 PM    <DIR>          my
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+              11 Dir(s)  38,808,154,112 bytes free
+
+C:\Users\perse\Desktop>mkdir "my folder"
+
+C:\Users\perse\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/14/2026  03:13 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+08/14/2026  03:13 PM    <DIR>          folder
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+08/14/2026  03:13 PM    <DIR>          my
+08/14/2026  03:13 PM    <DIR>          my folder
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+              12 Dir(s)  38,808,084,480 bytes free
+
+C:\Users\perse\Desktop>cd my folder
+
+C:\Users\perse\Desktop\my folder>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop\my folder
+
+08/14/2026  03:13 PM    <DIR>          .
+08/14/2026  03:13 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  38,808,371,200 bytes free
+
+C:\Users\perse\Desktop\my folder>echo "Hello Everyone"
+"Hello Everyone"
+
+C:\Users\perse\Desktop\my folder>echo Where are you guys?
+Where are you guys?
+
+C:\Users\perse\Desktop\my folder>echo Introduction to CLI >  notes.txt
+
+C:\Users\perse\Desktop\my folder>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop\my folder
+
+08/14/2026  03:20 PM    <DIR>          .
+08/14/2026  03:13 PM    <DIR>          ..
+08/14/2026  03:20 PM                22 notes.txt
+               1 File(s)             22 bytes
+               2 Dir(s)  38,807,216,128 bytes free
+
+C:\Users\perse\Desktop\my folder>notes.txt
+
+C:\Users\perse\Desktop\my folder>del notes.txt
+
+C:\Users\perse\Desktop\my folder>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop\my folder
+
+08/14/2026  03:23 PM    <DIR>          .
+08/14/2026  03:13 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  38,839,013,376 bytes free
+
+C:\Users\perse\Desktop\my folder>cd ..
+
+C:\Users\perse\Desktop>rmdir my folder
+
+C:\Users\perse\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/14/2026  03:25 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+08/14/2026  03:23 PM    <DIR>          my folder
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+              10 Dir(s)  38,837,329,920 bytes free
+
+C:\Users\perse\Desktop>rmdir "my folder"
+
+C:\Users\perse\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/14/2026  03:25 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+               9 Dir(s)  38,837,157,888 bytes free
+
+C:\Users\perse\Desktop>mkdir cli_practice
+
+C:\Users\perse\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/14/2026  03:26 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/14/2026  03:26 PM    <DIR>          cli_practice
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+              10 Dir(s)  38,837,157,888 bytes free
+
+C:\Users\perse\Desktop>cd cli_practice
+
+C:\Users\perse\Desktop\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop\cli_practice
+
+08/14/2026  03:26 PM    <DIR>          .
+08/14/2026  03:26 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  38,837,157,888 bytes free
+
+C:\Users\perse\Desktop\cli_practice>echo This is file > note.txt
+
+C:\Users\perse\Desktop\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop\cli_practice
+
+08/14/2026  03:26 PM    <DIR>          .
+08/14/2026  03:26 PM    <DIR>          ..
+08/14/2026  03:26 PM                15 note.txt
+               1 File(s)             15 bytes
+               2 Dir(s)  38,837,186,560 bytes free
+
+C:\Users\perse\Desktop\cli_practice>cd ..
+
+C:\Users\perse\Desktop>rmdir cli_practice
+The directory is not empty.
+
+C:\Users\perse\Desktop>rmdir /s cli_practice
+cli_practice, Are you sure (Y/N)? N
+
+C:\Users\perse\Desktop>rmdir /s /q cli_practice
+
+C:\Users\perse\Desktop>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Desktop
+
+08/14/2026  03:28 PM    <DIR>          .
+08/14/2026  11:20 AM    <DIR>          ..
+07/29/2026  12:10 PM             2,399 Antigravity.lnk
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf
+07/24/2026  11:36 PM             4,721 class notes.txt
+08/01/2026  11:46 PM    <DIR>          Codingrank School
+07/15/2026  05:59 PM    <DIR>          LPU
+07/06/2026  09:31 PM               412 Main.class
+07/06/2026  09:26 PM               119 Main.java
+08/05/2026  09:53 PM             3,882 methods_in_java_notes.txt
+06/15/2026  09:35 PM    <DIR>          Notes
+08/07/2026  09:52 AM    <DIR>          odna
+07/15/2026  06:06 PM             2,493 ParakeetAI.lnk
+07/01/2026  07:55 PM    <DIR>          Practice
+07/05/2026  11:51 AM    <DIR>          Shri Sanskritik Kala Manch
+06/04/2026  11:26 PM    <DIR>          Spreadsheet
+08/06/2026  04:57 PM           124,560 Travel Expense_LPU_MERN.pdf
+              11 File(s)        337,985 bytes
+               9 Dir(s)  38,837,018,624 bytes free
+
+C:\Users\perse\Desktop>
