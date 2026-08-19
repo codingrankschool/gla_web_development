@@ -1,0 +1,9 @@
+GitHub: It is a website which is used to store developers/companies codebase or doc for team collaborations.
+-------
+
+How To communicate with GitHub:
+Step 1: Download git bash software and install it
+Step 2: Open CMD [Window + R] - Run and Type cmd and hit Enter
+Step 3: type command git --version to check git bash installed or not
+Step 4: Goto gitHub.com and create new repository.
+Step 5
