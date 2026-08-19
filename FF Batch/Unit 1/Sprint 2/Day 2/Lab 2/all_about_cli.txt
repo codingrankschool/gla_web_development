@@ -1,0 +1,1539 @@
+
+Learning about how to operate computer using CLI => Command Line Interface:
+How to locate CMD Software in your computers:
+Window Operating System:
+1. WINDOW + R -> type CMD or cmd and Hit Enter
+2. Click on Search and type command prompt and open it
+
+
+What operations do you perform regularly in you computers?
+1. Creating/Opening/Deleting Files and Folders
+2. Opens/closes installed software
+3. Play multimedia type of files
+4. Moving and Coping the files and folders
+5. Others
+
+
+Note: above tasks you can also perform with the help of commands
+
+Examples:
+
+Microsoft Windows [Version 10.0.26200.9168]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\perse>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse
+
+08/19/2026  01:07 PM    <DIR>          .
+01/05/2025  09:54 PM    <DIR>          ..
+01/04/2025  12:25 PM             6,579 -1.14-windows.xml
+07/05/2026  02:19 AM    <DIR>          .ai_completion
+02/19/2025  08:05 PM    <DIR>          .android
+01/19/2026  02:35 PM    <DIR>          .arduinoIDE
+05/29/2026  10:35 AM    <DIR>          .aws
+03/21/2025  11:58 AM             4,665 .bash_history
+06/07/2026  10:11 AM    <DIR>          .bob
+06/07/2026  10:11 AM    <DIR>          .bobide
+09/06/2024  05:02 PM            21,908 .boto
+06/07/2026  10:38 AM    <DIR>          .cache
+06/07/2026  08:07 AM    <DIR>          .cagent
+08/17/2026  12:28 PM    <DIR>          .claude
+08/19/2026  01:07 PM            42,270 .claude.json
+08/19/2026  10:32 AM            40,899 .claude.json.backup
+06/07/2026  08:07 AM    <DIR>          .config
+06/07/2026  10:53 AM    <DIR>          .continue
+07/29/2026  10:32 AM    <DIR>          .copilot
+08/05/2026  10:30 AM    <DIR>          .cursor
+08/19/2026  01:07 PM    <DIR>          .docker
+12/21/2023  12:22 PM    <DIR>          .eclipse
+08/24/2025  12:00 AM                20 .erlang.cookie
+07/29/2026  12:10 PM    <DIR>          .gemini
+07/05/2026  02:19 AM               120 .gitconfig
+03/21/2025  11:37 AM                 0 .gitignore
+09/06/2024  05:09 PM    <DIR>          .gsutil
+12/29/2025  05:26 AM    <DIR>          .icube-remote-ssh
+12/15/2024  10:31 PM    <DIR>          .ipython
+05/29/2026  10:28 AM    <DIR>          .kiro
+08/18/2026  04:05 PM                20 .lesshst
+08/01/2026  11:40 PM    <DIR>          .m2
+02/11/2024  05:10 PM    <DIR>          .ms-ad
+08/12/2026  06:46 PM               402 .node_repl_history
+06/03/2026  11:27 AM                77 .npmrc
+06/07/2026  11:40 PM    <DIR>          .redis-for-vscode
+02/22/2024  05:17 PM    <DIR>          .ssh
+12/21/2023  12:28 PM    <DIR>          .sts4
+07/05/2026  10:34 AM    <DIR>          .trae
+01/01/2026  06:41 PM    <DIR>          .trae-aicc
+08/25/2025  03:35 PM             1,144 .viminfo
+12/21/2023  01:47 PM    <DIR>          .vscode
+05/31/2026  01:46 PM    <DIR>          .vscode-shared
+12/29/2025  05:26 AM    <DIR>          ai_completion
+01/07/2025  10:45 PM    <DIR>          Contacts
+01/19/2024  01:31 PM                13 demo.txt
+08/19/2026  10:30 AM    <DIR>          Desktop
+08/18/2026  03:46 PM    <DIR>          Documents
+08/19/2026  11:33 AM    <DIR>          Downloads
+01/07/2025  10:45 PM    <DIR>          Favorites
+06/01/2026  10:48 PM    <DIR>          IdeaProjects
+01/07/2025  10:45 PM    <DIR>          Links
+04/21/2026  10:29 AM    <DIR>          Music
+05/17/2024  09:02 AM    <DIR>          npm-cache
+07/07/2026  06:25 PM    <DIR>          OneDrive
+07/02/2026  11:53 AM    <DIR>          Pictures
+12/21/2023  07:12 PM    <DIR>          Postman
+01/07/2025  10:45 PM    <DIR>          Saved Games
+06/15/2026  09:40 PM    <DIR>          Searches
+08/22/2025  07:10 PM    <DIR>          Videos
+              13 File(s)        118,117 bytes
+              47 Dir(s)  42,351,312,896 bytes free
+
+C:\Users\perse>cd Downloads
+
+C:\Users\perse\Downloads>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Downloads
+
+08/19/2026  11:33 AM    <DIR>          .
+08/19/2026  01:07 PM    <DIR>          ..
+06/06/2026  04:25 PM         2,536,518 2.CSS Styles & Box Model.pdf
+06/01/2026  12:35 PM         2,895,365 8700459092_equifax_apr2026.pdf
+06/01/2026  12:38 PM         2,148,395 8700459092_equifax_apr2026_unlocked.pdf
+06/01/2026  12:36 PM         2,929,769 8700459092_experian_jun2026.pdf
+06/01/2026  12:37 PM         2,176,606 8700459092_experian_jun2026_unlocked.pdf
+06/25/2026  10:34 PM           108,754 9648006242_DELED_Application_FORM.pdf
+06/01/2026  01:04 PM            56,066 acknowledgementSlip_S1388671055580 (1).pdf
+06/01/2026  01:04 PM            56,066 acknowledgementSlip_S1388671055580.pdf
+06/08/2026  07:30 AM            65,023 Add a heading (1).png
+06/08/2026  07:30 AM            38,520 Add a heading (2).png
+06/05/2026  08:00 AM            62,691 Add a heading.png
+07/16/2026  06:08 PM         7,769,453 Advance_Javascript_React_Nodejs_Notes.pdf
+07/02/2026  12:02 PM           139,085 anand (1).jpg
+06/03/2026  10:48 AM           297,504 Anand Singh Yadav - Cover Letter.pdf
+07/23/2026  04:28 PM           207,349 Anand Singh Yadav_Certed technologies- Traning Invoice & Report.xlsx
+08/11/2026  08:27 PM           172,261 anand singh.jpg
+08/18/2025  06:37 PM            66,052 Anand.jpg
+08/07/2026  10:16 PM           109,990 Anand_Adhaar_Back (1).jpg
+06/10/2026  12:59 PM           109,990 Anand_Adhaar_Back.jpg
+08/07/2026  10:16 PM            55,090 Anand_Adhaar_Front (1).jpg
+06/10/2026  12:59 PM            55,090 Anand_Adhaar_Front.jpg
+08/11/2026  08:29 PM            69,640 anand_singh-removebg-preview.png
+06/01/2026  10:55 AM           104,412 Anand_Singh_Yadav_Resume (1).pdf
+06/03/2026  08:15 PM           161,050 Anand_Singh_Yadav_Resume (2).pdf
+06/05/2026  12:47 PM           161,050 Anand_Singh_Yadav_Resume (3) (1).pdf
+06/05/2026  12:45 PM           161,050 Anand_Singh_Yadav_Resume (3).pdf
+06/10/2026  01:00 PM           161,050 Anand_Singh_Yadav_Resume (4).pdf
+07/09/2026  01:46 PM           161,050 Anand_Singh_Yadav_Resume (5).pdf
+08/17/2026  11:44 AM           161,050 Anand_Singh_Yadav_Resume (6).pdf
+05/30/2026  07:12 PM           104,412 Anand_Singh_Yadav_Resume.pdf
+07/29/2026  12:15 PM       138,067,936 Antigravity-x64 (1).exe
+07/29/2026  12:08 PM       138,067,936 Antigravity-x64.exe
+08/01/2026  11:58 PM    <DIR>          apache-maven-3.9.16-bin
+08/02/2026  12:00 AM             2,992 apache-maven-3.9.16-bin.zip
+08/07/2026  06:36 PM             4,612 assignment.pdf
+06/01/2026  11:14 AM            13,146 Attendance Sheet May 26.xlsx
+06/10/2026  02:52 PM            47,658 Batches for Projects.xlsx
+07/05/2026  01:29 AM        79,800,545 bhagwan parshuram krodh.mp4
+07/04/2026  11:43 PM         2,314,613 bhajan-sandhya.png
+07/05/2026  12:21 AM       163,764,597 bharat and kaikai.mp4
+07/05/2026  12:53 AM           365,779 bharat-milap - Copy.jpeg
+07/05/2026  12:53 AM           365,779 bharat-milap.jpeg
+07/04/2026  01:20 PM           136,296 bharat-strughan.jpeg
+07/04/2026  01:22 PM           243,824 bharat-strughan2.jpeg
+07/05/2026  12:21 AM         6,640,015 bharat-vilap - Copy.png
+07/05/2026  12:21 AM         6,640,015 bharat-vilap.png
+06/28/2026  04:40 PM     3,131,838,888 Blast.2026.1080p.NF.WEB-DL.Hindi.DD5.1-Tamil.DD5.1.x264-Vegamovies.hot.mkv
+08/06/2026  04:32 PM            50,530 CAB_RECEIPT_RD1784769857060131.pdf
+08/06/2026  04:41 PM            48,902 CAB_RECEIPT_RD1784769857060135.pdf
+08/06/2026  04:53 PM            51,040 CAB_RECEIPT_RD17847698570601426 (1).pdf
+08/06/2026  04:24 PM            45,508 CAB_RECEIPT_RD17847698570601426.pdf
+08/06/2026  04:47 PM            48,927 CAB_RECEIPT_RD1784769857060252.pdf.pdf
+06/01/2026  01:06 PM           290,980 Cast Certificate.pdf
+07/23/2026  04:12 PM            96,230 Certed technologies- Traning Invoice & Report (2).xlsx
+08/18/2026  01:37 PM         1,772,542 ChatGPT Image Aug 18, 2026, 01_37_49 PM.png
+08/18/2026  01:44 PM         1,388,802 ChatGPT Image Aug 18, 2026, 01_44_19 PM.png
+08/18/2026  01:50 PM         1,414,214 ChatGPT Image Aug 18, 2026, 01_50_42 PM.png
+08/18/2026  01:55 PM         1,083,581 ChatGPT Image Aug 18, 2026, 01_55_10 PM.png
+08/18/2026  01:57 PM         1,173,610 ChatGPT Image Aug 18, 2026, 01_57_50 PM.png
+08/18/2026  02:00 PM         1,442,301 ChatGPT Image Aug 18, 2026, 02_00_09 PM.png
+08/18/2026  02:02 PM         1,195,920 ChatGPT Image Aug 18, 2026, 02_02_43 PM.png
+08/18/2026  02:06 PM         1,396,038 ChatGPT Image Aug 18, 2026, 02_06_19 PM.png
+08/18/2026  09:55 AM         1,948,890 ChatGPT Image Aug 18, 2026, 09_55_06 AM.png
+08/03/2026  03:00 PM         1,482,963 ChatGPT Image Aug 3, 2026, 03_00_16 PM.png
+08/03/2026  03:22 PM         1,406,106 ChatGPT Image Aug 3, 2026, 03_22_44 PM.png
+08/03/2026  03:46 PM         1,435,460 ChatGPT Image Aug 3, 2026, 03_46_16 PM.png
+08/03/2026  03:50 PM         1,521,977 ChatGPT Image Aug 3, 2026, 03_50_46 PM.png
+08/03/2026  03:52 PM         1,503,134 ChatGPT Image Aug 3, 2026, 03_52_54 PM.png
+08/03/2026  03:52 PM         1,503,134 ChatGPT Image Aug 3, 2026, 03_52_56 PM.png
+08/09/2026  10:39 PM         1,214,920 ChatGPT Image Aug 9, 2026, 10_39_05 PM.png
+08/09/2026  10:51 PM         1,553,586 ChatGPT Image Aug 9, 2026, 10_51_09 PM.png
+07/04/2026  11:44 PM         2,777,176 ChatGPT Image Jul 4, 2026, 11_44_04 PM.png
+07/05/2026  01:50 AM         2,223,316 ChatGPT Image Jul 5, 2026, 01_50_48 AM.png
+07/08/2026  11:39 PM         1,866,733 ChatGPT Image Jul 8, 2026, 11_39_55 PM.png
+07/08/2026  11:55 PM         1,682,022 ChatGPT Image Jul 8, 2026, 11_55_34 PM.png
+07/09/2026  12:53 AM         1,750,878 ChatGPT Image Jul 9, 2026, 12_53_30 AM.png
+06/10/2026  07:31 PM         1,628,873 ChatGPT Image Jun 10, 2026, 07_31_15 PM.png
+06/10/2026  07:38 PM         1,802,347 ChatGPT Image Jun 10, 2026, 07_37_59 PM.png
+06/10/2026  07:46 PM         1,680,149 ChatGPT Image Jun 10, 2026, 07_46_47 PM.png
+06/10/2026  07:54 PM         1,716,645 ChatGPT Image Jun 10, 2026, 07_54_32 PM.png
+06/10/2026  07:59 PM         1,737,487 ChatGPT Image Jun 10, 2026, 07_59_38 PM.png
+06/10/2026  08:05 PM         1,686,985 ChatGPT Image Jun 10, 2026, 08_05_55 PM.png
+06/10/2026  08:12 PM         1,678,496 ChatGPT Image Jun 10, 2026, 08_12_58 PM.png
+06/10/2026  09:23 PM         1,680,396 ChatGPT Image Jun 10, 2026, 09_23_05 PM.png
+06/10/2026  09:29 PM         1,691,091 ChatGPT Image Jun 10, 2026, 09_29_23 PM.png
+06/10/2026  09:37 PM         1,585,105 ChatGPT Image Jun 10, 2026, 09_37_32 PM.png
+06/10/2026  09:46 PM         1,706,666 ChatGPT Image Jun 10, 2026, 09_46_51 PM.png
+06/10/2026  09:52 PM         1,618,974 ChatGPT Image Jun 10, 2026, 09_52_02 PM.png
+06/10/2026  10:05 PM         1,526,766 ChatGPT Image Jun 10, 2026, 10_05_39 PM.png
+06/10/2026  10:13 PM         1,703,124 ChatGPT Image Jun 10, 2026, 10_13_04 PM.png
+06/10/2026  10:19 PM         1,634,621 ChatGPT Image Jun 10, 2026, 10_19_49 PM.png
+06/10/2026  10:27 PM         1,548,288 ChatGPT Image Jun 10, 2026, 10_27_18 PM.png
+06/10/2026  10:34 PM         1,503,951 ChatGPT Image Jun 10, 2026, 10_34_03 PM.png
+06/10/2026  10:41 PM         1,426,461 ChatGPT Image Jun 10, 2026, 10_41_01 PM.png
+06/10/2026  10:52 PM         1,617,908 ChatGPT Image Jun 10, 2026, 10_52_05 PM.png
+06/10/2026  10:57 PM         1,556,895 ChatGPT Image Jun 10, 2026, 10_57_31 PM.png
+06/10/2026  11:02 PM         1,511,014 ChatGPT Image Jun 10, 2026, 11_02_53 PM.png
+06/10/2026  11:09 PM         1,445,900 ChatGPT Image Jun 10, 2026, 11_09_29 PM.png
+06/10/2026  11:16 PM         1,524,478 ChatGPT Image Jun 10, 2026, 11_16_48 PM.png
+06/10/2026  11:21 PM         1,486,566 ChatGPT Image Jun 10, 2026, 11_21_37 PM.png
+06/10/2026  11:26 PM         1,381,576 ChatGPT Image Jun 10, 2026, 11_26_39 PM.png
+06/10/2026  11:33 PM         1,428,722 ChatGPT Image Jun 10, 2026, 11_33_33 PM.png
+06/10/2026  11:40 PM         1,452,355 ChatGPT Image Jun 10, 2026, 11_40_07 PM.png
+06/10/2026  11:49 PM         1,520,079 ChatGPT Image Jun 10, 2026, 11_49_47 PM.png
+06/10/2026  11:59 PM         1,455,689 ChatGPT Image Jun 10, 2026, 11_59_30 PM.png
+06/11/2026  07:01 PM         1,518,990 ChatGPT Image Jun 11, 2026, 07_01_05 PM.png
+06/11/2026  07:07 PM         1,459,639 ChatGPT Image Jun 11, 2026, 07_07_21 PM.png
+06/11/2026  07:20 PM         1,527,357 ChatGPT Image Jun 11, 2026, 07_20_44 PM.png
+06/11/2026  12:11 AM         1,504,832 ChatGPT Image Jun 11, 2026, 12_11_49 AM.png
+06/11/2026  12:18 AM         1,505,725 ChatGPT Image Jun 11, 2026, 12_18_37 AM.png
+06/12/2026  07:29 AM         1,287,215 ChatGPT Image Jun 12, 2026, 07_29_31 AM.png
+06/16/2026  07:57 AM         1,511,454 ChatGPT Image Jun 16, 2026, 07_56_59 AM.png
+06/16/2026  07:59 AM         1,206,036 ChatGPT Image Jun 16, 2026, 07_59_16 AM.png
+06/16/2026  08:04 AM         1,193,702 ChatGPT Image Jun 16, 2026, 08_04_05 AM.png
+06/16/2026  08:04 AM         1,193,702 ChatGPT Image Jun 16, 2026, 08_04_06 AM.png
+06/16/2026  08:06 AM         1,788,793 ChatGPT Image Jun 16, 2026, 08_06_50 AM.png
+06/16/2026  08:09 AM         1,237,536 ChatGPT Image Jun 16, 2026, 08_09_54 AM.png
+06/16/2026  08:15 AM         1,243,280 ChatGPT Image Jun 16, 2026, 08_15_37 AM.png
+06/05/2026  09:14 AM         1,249,510 ChatGPT Image Jun 5, 2026, 09_14_29 AM.png
+06/05/2026  09:17 AM           756,519 ChatGPT Image Jun 5, 2026, 09_17_26 AM.png
+06/23/2026  08:31 PM            18,305 ChatGPT_Image_Jun_23_2026_08_17_57_PM_11zon.jpg
+08/05/2026  10:31 PM         7,020,704 Claude Setup (1).exe
+08/05/2026  11:15 PM         7,020,704 Claude Setup (2).exe
+08/05/2026  10:30 PM         7,020,704 Claude Setup.exe
+08/18/2026  09:05 AM            10,785 CLI_Basic_Assignment_Problems.pdf
+07/09/2026  09:21 AM             1,414 coding-question-template.json
+06/04/2026  09:24 AM         2,146,336 Codingrank School Logo png.png
+06/04/2026  10:09 PM         5,525,906 Command-Prompt-CMD Notes.pdf
+07/15/2026  05:50 PM             4,276 component-and-styling-in-react.zip
+07/15/2026  05:50 PM             6,066 components-and-props.zip
+07/15/2026  05:50 PM             5,676 components-props-app.zip
+08/11/2026  08:28 PM           218,899 Consulting Services Agreement_Anand Singh Yadav.pdf
+08/11/2026  08:34 PM           319,084 Consulting Services Agreement_Anand Singh Yadav_signed.pdf
+08/10/2026  11:23 PM        25,333,629 Core Java Notes.pdf
+06/08/2026  07:46 AM            16,868 CSS Combinators, Pseudo Classes and Pseudo Elements - Complete Trainer Notes.docx
+06/08/2026  07:51 AM            15,888 CSS Flexbox Guide.docx
+06/08/2026  07:25 AM            16,978 CSS Fundamentals - Complete Trainer Notes.docx
+06/09/2026  11:01 PM            14,494 CSS Grid Layout - Complete Deep Dive Notes.docx
+06/09/2026  11:03 PM            13,820 CSS Grid Layout - Part 2.docx
+06/09/2026  11:05 PM            15,450 CSS Grid Layout - Part 3.docx
+06/09/2026  11:12 PM            15,604 CSS Position Property - Complete Deep Dive Notes.docx
+06/08/2026  07:38 AM            15,958 CSS Selectors.docx
+06/09/2026  10:50 PM         5,893,820 CSS_Flex.pdf
+06/09/2026  10:52 PM         6,241,527 CSS_Grid.pdf
+06/08/2026  08:16 AM            37,168 CSS_Grid_Complete_Trainer_Notes.docx
+08/05/2026  10:30 AM       198,254,024 CursorSetup-x64-3.14.7.exe
+08/05/2026  10:23 AM       198,259,360 CursorUserSetup-x64-3.14.7.exe
+07/05/2026  01:28 AM        70,424,746 Dashrath Vilap.mp4
+07/05/2026  11:30 PM            76,245 Day 1 and Day 2 HTML & CSS Assignments.pdf
+07/15/2026  05:57 PM            62,334 Day 1 and Day 2 React Assignment.pdf
+07/16/2026  06:05 PM            56,870 Day 1 MERN Assignment -  Basic Full Stack Applications.pdf
+06/05/2026  10:13 AM            68,871 Day 1_ CLI_Practical_Assignment (1).pdf
+06/04/2026  10:38 PM            68,871 Day 1_ CLI_Practical_Assignment.pdf
+07/17/2026  06:06 PM            58,570 Day 2 MERN Assignment.pdf
+07/06/2026  06:20 PM            66,840 Day 3 JavaScript Assignment.pdf
+07/20/2026  08:36 AM            64,876 Day 3 MERN Assignment.pdf
+07/07/2026  06:08 PM            82,274 Day 4 JavaScript Assignments.pdf
+07/09/2026  01:04 AM            76,252 Day 5 JavaScript Assignments.pdf
+07/09/2026  06:18 PM            83,894 Day 6 JavaScript Assignment.pdf
+07/10/2026  09:17 PM            59,474 Day 7 JavaScript Assignment.pdf
+07/14/2026  08:32 AM            75,612 Day 8 JavaScript Assignment.pdf
+06/05/2026  07:18 PM            65,508 Day2_Text_Link_List_Table Element Assignment.pdf
+06/06/2026  04:38 PM            70,268 Day3_HTML_Forms_Multimedia_Semantic_Assignments.pdf
+06/04/2026  09:20 AM            38,342 Detailed_MERN_Stack_Syllabus_20_Classes.docx
+03/29/2026  02:25 PM       360,947,377 Dhruv_Rathee_Free_Ai_Masterclass_Ai_fiesta_dhruvrathee_360P.mp4
+03/29/2026  02:29 PM       537,594,621 Dhruv_Rathi_Free_AI_Masterclass_480P.mp4
+08/06/2026  11:23 AM             2,502 download.jpg
+07/20/2026  12:47 PM             7,986 e147b867-cf53-4c30-976d-30b6d174de66.zip
+06/01/2026  05:52 PM         1,389,706 EAadhaar_0647032486889120190102115029_01062026175226.pdf
+06/05/2026  11:46 AM             1,117 event.ics
+07/22/2026  12:35 PM            97,760 Feedback Form.png
+06/05/2026  10:22 AM        11,409,483 Git and Github Notes (1).pdf
+06/04/2026  10:17 PM        11,409,483 Git and Github Notes.pdf
+06/04/2026  03:36 PM        65,175,776 Git-2.54.0-64-bit.exe
+08/18/2026  03:36 PM        65,388,168 Git-2.55.0.4-64-bit.exe
+06/04/2026  10:15 PM        24,641,068 Git-and-GitHub-From-Zero-to-Job-Ready.pptx
+06/01/2026  11:14 AM           103,758 Gmail - Request for Attendance Approval – May 26.pdf
+07/15/2026  05:50 PM             4,208 good-example-useeffect.zip
+06/10/2026  03:20 PM             7,436 Group_Wise_Students_Color_Coded.xlsx
+07/04/2026  06:42 PM         7,706,600 hindi-news-interview.mp4
+06/27/2026  11:48 AM       933,911,585 Homebound.2025.720p.NF.WEB-DL.Hindi.AAC5.1.H.264-Vegamovies.is.mkv
+06/05/2026  07:54 AM            16,031 HTML - Complete Introduction.docx
+06/05/2026  08:04 AM            16,326 HTML Attributes, Hyperlinks, and Images - Complete Notes.docx
+06/05/2026  08:25 AM            17,472 HTML Forms and Multimedia Elements - Complete Notes.docx
+06/05/2026  08:17 AM            16,038 HTML Lists and Tables - Complete Notes.docx
+06/05/2026  07:47 AM            15,305 HTML Text Elements & Text Formatting Elements - Complete Notes.docx
+07/05/2026  11:22 PM            37,731 HTML5_HTML_CSS_Assignment.docx
+06/05/2026  07:15 PM            37,379 HTML_Advanced_Assignments.docx
+06/06/2026  04:37 PM            37,520 HTML_Forms_Multimedia_Semantic_Assignments.docx
+06/02/2026  08:30 PM        38,866,456 HuionTablet_WinDriver_v15.3.6.769.exe
+06/01/2026  01:14 PM           277,258 Husband Democile Certificate (1).pdf
+06/01/2026  01:01 PM           277,258 Husband Democile Certificate.pdf
+06/07/2026  10:08 AM       210,045,648 IBM-BobUserSetup-x64-1.116.0+bob1.0.3.exe
+07/07/2026  06:40 PM       993,349,720 ideaIC-2025.2.6.2 (1).exe
+05/30/2026  05:30 AM       993,349,720 ideaIC-2025.2.6.2.exe
+07/02/2026  03:18 PM            61,664 image (1).png
+07/02/2026  03:18 PM            61,664 image (2).png
+07/02/2026  12:02 PM           139,085 image.jpg
+07/02/2026  03:18 PM            61,664 image.png
+08/06/2026  11:23 AM            28,756 images.jpg
+06/07/2026  08:22 AM           272,448 IMG_20250419_152245818_HDR_AE.jpg
+06/01/2026  01:07 PM           244,619 Income Certificate.pdf
+07/05/2026  11:24 PM            38,095 Industry_HTML_CSS_Assignment_Job_Portal.docx
+07/05/2026  11:28 PM            38,166 Industry_Oriented_HTML_CSS_Assignments.docx
+06/02/2026  12:08 AM               551 InstallationLog.txt
+07/29/2026  12:52 PM            36,510 Invoice-P5QFNZPD-0006.pdf
+07/27/2026  09:57 PM            83,270 IW PROBLEMS.pdf
+07/04/2026  11:43 PM         2,777,176 jagran.png
+07/28/2026  09:57 PM           126,445 Java Arrays Assignment.pdf
+07/07/2026  10:28 PM            74,465 Java Assignment 01_ JDK, Comments, Variables.pdf
+08/08/2026  05:00 PM            48,751 java DSA.docx
+07/24/2026  11:49 PM         1,416,003 Java Nested Loop.pdf
+07/17/2026  11:32 PM           105,390 Java Switch Case & While Loop.pdf
+07/22/2026  09:18 AM           374,470 Java While Loop Assignments.pdf
+06/12/2026  04:41 PM            79,156 JavaScript Assignment Day 1.pdf
+06/15/2026  06:40 PM            87,107 Javascript Day 3 Assignment.pdf
+06/15/2026  06:31 PM            37,249 JavaScript_20_Pattern_Assignment.docx
+07/09/2026  01:02 AM            37,875 JavaScript_Assignment_03_Strings_Functions_Objects.docx
+07/09/2026  06:17 PM            37,890 JavaScript_Assignment_04_HOF_DOM_Detailed.docx
+07/10/2026  09:09 PM            37,372 JavaScript_Assignment_05_Async_Promises_Fetch.docx
+07/14/2026  08:30 AM            37,736 JavaScript_Assignment_06_ES6_Detailed_Mock_Data.docx
+07/14/2026  08:26 AM            37,640 JavaScript_Assignment_06_ES6_Features_Industry_Level.docx
+06/12/2026  04:38 PM            37,242 JavaScript_Assignment_10_Problems.docx
+08/12/2026  08:08 PM            14,783 JavaScript_Basics_Assignment_var_Operators_Conditionals(1).pdf
+06/12/2026  04:40 PM            37,786 JavaScript_Detailed_Assignment.docx
+07/06/2026  06:17 PM            38,101 JavaScript_Industry_Assignment_01.docx
+08/13/2026  08:58 PM            14,950 JavaScript_Loops_Arrays_Strings_Functions_Advanced_Assignments(1).pdf
+06/12/2026  02:14 PM            37,339 JavaScript_Revision_Assignment.docx
+07/07/2026  06:03 PM            37,479 JavaScript_Web_Development_Assignment_02.docx
+07/07/2026  06:06 PM            38,247 JavaScript_Web_Development_Assignment_02_Detailed.docx
+06/15/2026  06:31 PM            37,335 JavaScript_While_Loop_Assignment.docx
+08/03/2026  09:55 PM             3,944 Java_2D_Array_10_Industry_Assignments.pdf
+07/28/2026  09:54 PM            37,315 Java_Arrays_Assignment_10_Problems.docx
+07/07/2026  10:25 PM            38,143 Java_Assignment_01_JDK_Comments_Variables (1).docx
+07/07/2026  10:25 PM            38,143 Java_Assignment_01_JDK_Comments_Variables.docx
+07/27/2026  09:56 PM            37,959 Java_Classroom_Practice_20_Problems.docx
+08/18/2026  10:33 PM            11,198 Java_Constructors_and_Overloading_Assignments.pdf
+08/07/2026  06:35 PM             4,612 Java_File_Handling_Mini_Project_Assignments (1).pdf
+08/05/2026  07:56 PM             4,612 Java_File_Handling_Mini_Project_Assignments.pdf
+08/10/2026  08:30 AM             6,627 Java_Input_Method_Array_5_Assignments.pdf
+07/08/2026  09:26 AM            37,963 Java_MCQs_JDK_Comments_Variables.docx
+08/05/2026  09:59 PM             3,726 Java_Methods_10_Industry_Assignments.pdf
+07/24/2026  11:41 PM            38,224 Java_Nested_Loop_10_Detailed_Assignments.docx
+07/24/2026  11:44 PM            38,927 Java_Nested_Loop_Advanced_Assignments_11_to_20.docx
+08/04/2026  09:43 PM             4,179 Java_String_10_Industry_Assignments.pdf
+07/17/2026  11:30 PM            38,444 Java_Switch_Case_While_Loop_10_Detailed_Industry_Assignments.docx
+07/17/2026  11:28 PM            37,765 Java_Switch_Case_While_Loop_Detailed_Assignments (1).docx
+07/17/2026  11:28 PM            37,765 Java_Switch_Case_While_Loop_Detailed_Assignments.docx
+07/17/2026  11:22 PM            37,455 Java_Switch_Case_While_Loop_Industry_Assignments.docx
+07/17/2026  11:25 PM            37,575 Java_Switch_Case_While_Loop_Industry_Assignments_Updated.docx
+07/22/2026  09:07 AM            37,494 Java_While_Loop_Number_Manipulation_10_Assignments.docx
+07/03/2026  09:36 PM       173,727,744 jdk-21_windows-x64_bin.msi
+06/17/2026  03:20 PM            61,140 JS_Objects_HOF_Lab_Problems.pdf
+07/05/2026  12:20 AM       119,632,639 kaikai - manthra.mp4
+07/04/2026  07:23 PM         5,780,652 kaikai-bharat.mp4
+07/05/2026  11:41 AM        25,404,736 kakai-manthra.mp4
+07/04/2026  11:44 PM         2,371,855 katha.png
+06/12/2026  02:15 PM            51,968 Lab Problems.pdf
+07/04/2026  07:37 PM        14,962,482 laxman-shakti.mp4
+07/03/2026  06:39 PM         2,040,974 layout.png
+08/06/2025  11:36 AM       340,260,435 lGMQf1lZwyN0mk6hmUOTmI5vB4myf8n4i9b4aSug.mp4
+07/15/2026  05:50 PM             3,967 list-rendering-example-and-key.zip
+07/04/2026  10:27 PM         2,521,586 logo (2).png
+06/04/2026  10:58 PM            35,080 logo.png
+07/10/2026  12:24 AM            37,886 LPU_to_Dharamshala_Weekend_Bike_Trip_Itinerary.docx
+06/01/2026  11:31 PM             9,303 ManualWebapp_744399.zip
+06/10/2026  02:39 PM         1,373,233 Media_Queries__Positions.pdf
+06/04/2026  11:13 PM            18,448 MERN Session Plan 100 Hrs.docx
+07/02/2026  12:21 PM            50,310 mern stack Day 1.docx
+07/05/2026  11:17 PM            47,423 mern stack Day 2.docx
+06/09/2026  03:37 PM           126,784 MERN Stack Multi-Vendor Marketplace Project Specification V2.pdf
+06/09/2026  07:34 PM           130,475 MERN Stack University Management System Specification Document V2.pdf
+06/05/2026  09:28 AM         2,712,668 MERN Standard Notes .pdf
+07/02/2026  10:02 AM        25,318,111 MERN-Full-Stack-Development-Day-1.pptx
+08/08/2026  05:00 PM            45,934 mern.docx
+06/08/2026  05:55 PM             7,465 MERN_30_Projects_And_Industry_References.xlsx
+06/10/2026  07:08 PM             7,398 MERN_40_Project_Catalog_Sharda.xlsx
+07/16/2026  06:04 PM            37,180 MERN_Assignment_01_Basic_FullStack_Applications.docx
+07/17/2026  06:04 PM            37,286 MERN_Assignment_02_MongoDB_CRUD_Industry_Level.docx
+07/20/2026  08:35 AM            37,398 MERN_Assignment_03_Authentication_Authorization_bcrypt_JWT.docx
+07/20/2026  09:10 AM         8,450,395 MERN_Notes.pdf
+06/08/2026  05:51 PM             7,640 MERN_Projects_With_Industry_Mapping_2026.xlsx
+07/01/2026  10:30 AM             7,929 MERN_Project_Evaluation_With_Team_Tracker.xlsx
+07/08/2026  11:23 AM             9,379 MERN_Project_Group_Allocation.xlsx
+06/04/2026  09:18 AM            37,202 MERN_Stack_20_Class_Curriculum.docx
+07/01/2026  10:27 AM             7,864 MERN_Stack_Project_Evaluation_Rubric.xlsx
+06/05/2026  08:36 AM            17,094 Meta Tags, Favicon and HTML5 Features - Complete Notes.docx
+07/02/2026  03:19 PM            61,664 mobile.png
+06/02/2026  12:07 AM        93,680,251 msys2-x86_64-20250830.exe
+06/05/2026  12:47 PM           161,050 myresume.pdf
+07/04/2026  06:41 PM        19,461,150 narad-moh.mp4
+06/10/2026  01:14 PM            34,787 Netconnectglobal_27981_Anand_Singh_Yadav_Experience_Letter_ae3PYLH_lElK36M-Updated_1_sTQ6kAC_GE3QPOK_u0PATUs80lmhbfk.pdf
+08/01/2026  11:21 PM            16,394 odna-backend.zip
+08/07/2026  09:40 AM         1,468,280 odna_logo.png
+06/02/2026  09:46 PM       206,493,686 OpenBoard_Installer_1.7.7.exe
+08/06/2026  04:19 PM           287,178 ORDER_INVOICE_RD17814054048855608.pdf
+08/07/2026  10:16 PM            95,128 Pancard (1).jpeg
+06/10/2026  12:59 PM            95,128 Pancard.jpeg
+07/17/2024  12:58 AM         1,380,218 Panchwati Ram Laxman and Sita Ji.jpg
+07/08/2026  02:02 PM       223,874,520 ParakeetAI-Setup-3.6.14.exe
+07/16/2026  04:34 PM            97,760 Plan to Dharmshala (1).png
+07/20/2026  12:40 PM            97,760 Plan to Dharmshala (2).png
+07/10/2026  12:27 AM            97,760 Plan to Dharmshala.png
+08/01/2026  10:59 PM       373,833,080 postgresql-17.10-2-windows-x64.exe
+06/04/2026  02:53 PM    <DIR>          practice
+06/02/2026  12:27 AM           130,661 program.exe
+07/08/2026  11:43 AM            97,760 Project Sheet.png
+06/05/2026  03:47 PM            97,760 Quiz.png
+07/04/2026  11:59 AM        20,557,568 Ram Laxman - Guru Vashishth Yagya Raksha.mp4
+07/04/2026  12:00 PM         7,441,157 Ram Laxman Jhanki.mp4
+07/05/2026  12:52 AM           321,843 ram-darbar - Copy.jpeg
+07/05/2026  12:52 AM           321,843 ram-darbar.jpeg
+07/04/2026  01:21 PM           240,818 ram-laxman-image1.jpeg
+07/04/2026  01:23 PM           354,296 ram-laxman-nishadraj.jpeg
+07/04/2026  01:22 PM           245,682 ram-laxman-sita.jpeg
+07/04/2026  01:24 PM         1,716,019 ram-laxman-sita2.jpeg
+07/04/2026  01:24 PM         1,726,504 ram-laxman-sita3.jpeg
+07/04/2026  01:22 PM           258,610 ram-laxman-strughan.jpeg
+07/05/2026  12:54 AM           214,524 ram-laxman-vilap-sita-haran - Copy.jpeg
+07/05/2026  12:54 AM           214,524 ram-laxman-vilap-sita-haran.jpeg
+07/04/2026  01:25 PM         1,879,529 ram-laxman2.jpeg
+07/04/2026  07:20 PM         4,443,870 ram-ravan-yudh.mp4
+07/05/2026  12:53 AM           463,706 ram-sita-laxman-jhanki - Copy.jpeg
+07/05/2026  12:53 AM           463,706 ram-sita-laxman-jhanki.jpeg
+07/04/2026  01:25 PM         1,498,486 ram-solo.jpeg
+07/04/2026  07:22 PM         4,139,483 ram-supankha.mp4
+07/04/2026  07:36 PM         8,014,243 ram-vanwas-prajavasi.mp4
+07/04/2026  07:22 PM         5,090,182 ram-vanwas.mp4
+07/05/2026  12:53 AM           203,057 ram-vilap-panchvati - Copy.jpeg
+07/05/2026  12:53 AM           203,057 ram-vilap-panchvati.jpeg
+07/04/2026  07:24 PM         5,702,193 ram-vivah-video.mp4
+07/04/2026  01:18 PM           262,888 ram-vivah1.jpeg
+07/04/2026  01:18 PM           285,600 ram-vivah2.jpeg
+07/04/2026  01:17 PM           216,948 ramdal-image.jpeg
+07/04/2026  01:17 PM           204,351 ramdal-image2.jpeg
+07/04/2026  11:42 PM         2,347,457 ramleela.png
+07/04/2026  11:43 PM         2,697,549 rasleela.png
+07/05/2026  12:52 AM           208,920 ravan-bhiksha - Copy.jpeg
+07/05/2026  12:52 AM           208,920 ravan-bhiksha.jpeg
+07/04/2026  07:21 PM        14,070,343 ravan-tapasya.mp4
+07/20/2026  12:48 PM             8,101 react-router-dom-app-802.zip
+07/15/2026  05:55 PM            37,309 React_Assignment_01.docx
+07/15/2026  05:56 PM            62,321 React_Assignment_01.pdf
+06/03/2026  02:11 AM           161,050 Resume_Anand_Singh_Yadav.pdf
+07/15/2026  05:49 PM             4,679 routing-in-react.zip
+08/19/2026  11:33 AM             1,062 school_saas_backend.env
+07/09/2026  06:03 PM            28,697 Screenshot 2026-07-09 175747.png
+06/05/2026  08:31 AM            16,906 Semantic HTML and HTML Entities - Complete Notes.docx
+06/04/2026  10:55 PM           131,321 Sharda University MERN.png
+07/05/2026  01:48 AM    <DIR>          Shri Sanskritik Kala Manch 2025
+07/05/2026  01:43 AM         2,037,095 Shri Sanskritik Kala Manch 2025.mp4
+07/05/2026  01:45 AM         6,699,157 Shri Sanskritik Kala Manch 2025.zip
+07/05/2026  12:54 AM         5,702,193 shri-ram-vivah.mp4
+07/05/2026  01:31 AM       121,074,061 sita haran.mp4
+07/04/2026  07:21 PM        11,259,151 sita-haran.mp4
+06/12/2026  03:27 PM         3,035,726 Sliding_Window_Class_Notes.pdf
+07/08/2026  11:52 PM            38,493 Splitwise_PlusPlus_Project_Document.docx
+04/23/2026  12:37 PM           674,227 SSPS Student ID Form.png
+07/17/2026  05:41 PM             4,598 staff_attendance_shrisaipublicschool_2026_07.csv
+07/15/2026  05:50 PM             3,773 state-management-react.zip
+07/15/2026  05:50 PM             4,241 state-management.zip
+07/27/2026  10:16 AM               530 student_bulk_import_template.csv
+08/04/2026  11:09 PM        60,249,483 student_ID_Cards_Bulk (1).pdf
+07/27/2026  10:33 AM       105,073,775 student_ID_Cards_Bulk.pdf
+07/04/2026  11:44 PM         2,499,977 sundarkand.png
+07/05/2026  12:22 AM        30,335,629 supnakha and laxman.mp4
+08/07/2026  09:42 AM         1,420,778 tab_logo.png
+07/04/2026  06:41 PM         7,573,713 tadka-vadh.mp4
+06/08/2026  05:48 PM             7,283 Top_20_Industry_Level_MERN_Projects_2026.xlsx
+06/07/2026  10:57 AM            38,034 Top_20_MERN_Projects_Guide.docx
+06/08/2026  06:11 PM             5,760 Top_3_Campus_MERN_Projects.xlsx
+06/08/2026  06:17 PM             5,804 Top_3_Modern_Industry_MERN_Projects.xlsx
+06/03/2026  02:49 AM         2,040,198 Trainer- ANAND_SINGH_YADAV.pdf
+06/09/2026  10:29 PM           554,267 Trainer_ABHISHEK _KUMAR (1).pdf
+06/09/2026  10:27 PM           554,252 Trainer_ABHISHEK _KUMAR.pdf
+06/09/2026  10:02 PM         2,082,834 Trainer_ANAND_SINGH_YADAV (1).pdf
+06/16/2026  05:14 PM         2,082,834 Trainer_ANAND_SINGH_YADAV (2).pdf
+07/02/2026  05:32 PM         2,082,834 Trainer_ANAND_SINGH_YADAV (3).pdf
+08/06/2026  12:10 PM         2,654,479 Trainer_ANAND_SINGH_YADAV.docx
+06/03/2026  03:06 AM         2,032,190 Trainer_ANAND_SINGH_YADAV.pdf
+07/05/2026  08:06 PM         2,279,187 twitter-card.png
+06/12/2026  03:28 PM         3,195,866 Two_Pointer.pdf
+07/06/2026  07:08 PM             6,569 University_Enterprise_Level_MERN_Project_Ideas.xlsx
+06/09/2026  10:06 PM            20,650 Untitled design.png
+06/12/2026  02:14 PM             8,962 Untitled document.pdf
+07/15/2026  05:49 PM             4,174 useeffect-hook-good-example.zip
+07/15/2026  05:50 PM             4,516 useeffect-hook.zip
+07/05/2026  12:53 AM           347,592 vivah-taiyariya - Copy.jpeg
+07/05/2026  12:53 AM           347,592 vivah-taiyariya.jpeg
+08/18/2026  09:28 AM         5,439,204 Welcome & Course Introduction (1).pdf
+06/04/2026  10:43 PM         5,439,216 Welcome & Course Introduction.pdf
+08/26/2025  06:09 PM            71,038 WhatsApp Image 2025-08-26 at 18.07.43_b11cfeee.jpg
+06/23/2026  10:01 PM           249,387 WhatsApp Image 2026-06-23 at 8.03.28 PM.jpeg
+06/23/2026  08:42 PM            13,262 WhatsApp Image 2026-06-23 at 8.03.36 PM_11zon_11zon.jpg
+08/07/2026  09:37 AM            48,560 WhatsApp Image 2026-08-01 at 10.35.46 AM.jpeg
+08/05/2026  11:35 AM            42,506 WhatsApp Image 2026-08-05 at 11.34.55 AM.jpeg
+08/25/2025  03:21 PM            50,736 WhatsApp_Image_2025-08-25_at_15.15.45_7c8e1982-removebg-preview.png
+06/04/2026  09:56 PM         5,255,721 Windows-CLI-and-GitHub.pdf
+06/04/2026  09:56 PM        13,115,010 Windows-CLI-and-GitHub.pptx
+06/04/2026  10:09 PM        12,016,660 Windows-Command-Prompt-CMD.pptx
+06/04/2026  09:21 PM            38,775 Windows_CLI_Complete_Notes.docx
+06/04/2026  08:31 PM            37,788 Windows_CLI_Mastery_Notes.docx
+06/04/2026  10:37 PM            37,417 Windows_CLI_Practical_Assignment.docx
+08/11/2026  08:28 PM           225,028 WO_Anand Singh Yadav.pdf
+08/11/2026  08:31 PM           239,136 WO_Anand Singh Yadav_signed.pdf
+07/09/2026  12:49 AM            37,860 ZenSprint_Enterprise_Project_SRS.docx
+06/06/2026  10:44 PM         5,066,485 सीता जी रामलीला प्रसंग.pdf
+             404 File(s) 10,750,522,314 bytes
+               5 Dir(s)  42,352,263,168 bytes free
+
+C:\Users\perse\Downloads>
+C:\Users\perse\Downloads>
+C:\Users\perse\Downloads>
+C:\Users\perse\Downloads>
+C:\Users\perse\Downloads>
+C:\Users\perse\Downloads>
+C:\Users\perse\Downloads>
+C:\Users\perse\Downloads>
+C:\Users\perse\Downloads>cd .
+
+C:\Users\perse\Downloads>cd ..
+
+C:\Users\perse>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse
+
+08/19/2026  01:07 PM    <DIR>          .
+01/05/2025  09:54 PM    <DIR>          ..
+01/04/2025  12:25 PM             6,579 -1.14-windows.xml
+07/05/2026  02:19 AM    <DIR>          .ai_completion
+02/19/2025  08:05 PM    <DIR>          .android
+01/19/2026  02:35 PM    <DIR>          .arduinoIDE
+05/29/2026  10:35 AM    <DIR>          .aws
+03/21/2025  11:58 AM             4,665 .bash_history
+06/07/2026  10:11 AM    <DIR>          .bob
+06/07/2026  10:11 AM    <DIR>          .bobide
+09/06/2024  05:02 PM            21,908 .boto
+06/07/2026  10:38 AM    <DIR>          .cache
+06/07/2026  08:07 AM    <DIR>          .cagent
+08/17/2026  12:28 PM    <DIR>          .claude
+08/19/2026  01:07 PM            42,270 .claude.json
+08/19/2026  10:32 AM            40,899 .claude.json.backup
+06/07/2026  08:07 AM    <DIR>          .config
+06/07/2026  10:53 AM    <DIR>          .continue
+07/29/2026  10:32 AM    <DIR>          .copilot
+08/05/2026  10:30 AM    <DIR>          .cursor
+08/19/2026  01:35 PM    <DIR>          .docker
+12/21/2023  12:22 PM    <DIR>          .eclipse
+08/24/2025  12:00 AM                20 .erlang.cookie
+07/29/2026  12:10 PM    <DIR>          .gemini
+07/05/2026  02:19 AM               120 .gitconfig
+03/21/2025  11:37 AM                 0 .gitignore
+09/06/2024  05:09 PM    <DIR>          .gsutil
+12/29/2025  05:26 AM    <DIR>          .icube-remote-ssh
+12/15/2024  10:31 PM    <DIR>          .ipython
+05/29/2026  10:28 AM    <DIR>          .kiro
+08/18/2026  04:05 PM                20 .lesshst
+08/01/2026  11:40 PM    <DIR>          .m2
+02/11/2024  05:10 PM    <DIR>          .ms-ad
+08/12/2026  06:46 PM               402 .node_repl_history
+06/03/2026  11:27 AM                77 .npmrc
+06/07/2026  11:40 PM    <DIR>          .redis-for-vscode
+02/22/2024  05:17 PM    <DIR>          .ssh
+12/21/2023  12:28 PM    <DIR>          .sts4
+07/05/2026  10:34 AM    <DIR>          .trae
+01/01/2026  06:41 PM    <DIR>          .trae-aicc
+08/25/2025  03:35 PM             1,144 .viminfo
+12/21/2023  01:47 PM    <DIR>          .vscode
+05/31/2026  01:46 PM    <DIR>          .vscode-shared
+12/29/2025  05:26 AM    <DIR>          ai_completion
+01/07/2025  10:45 PM    <DIR>          Contacts
+01/19/2024  01:31 PM                13 demo.txt
+08/19/2026  10:30 AM    <DIR>          Desktop
+08/18/2026  03:46 PM    <DIR>          Documents
+08/19/2026  11:33 AM    <DIR>          Downloads
+01/07/2025  10:45 PM    <DIR>          Favorites
+06/01/2026  10:48 PM    <DIR>          IdeaProjects
+01/07/2025  10:45 PM    <DIR>          Links
+04/21/2026  10:29 AM    <DIR>          Music
+05/17/2024  09:02 AM    <DIR>          npm-cache
+07/07/2026  06:25 PM    <DIR>          OneDrive
+07/02/2026  11:53 AM    <DIR>          Pictures
+12/21/2023  07:12 PM    <DIR>          Postman
+01/07/2025  10:45 PM    <DIR>          Saved Games
+06/15/2026  09:40 PM    <DIR>          Searches
+08/22/2025  07:10 PM    <DIR>          Videos
+              13 File(s)        118,117 bytes
+              47 Dir(s)  42,351,026,176 bytes free
+
+C:\Users\perse>cd Favorites
+
+C:\Users\perse\Favorites>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Favorites
+
+01/07/2025  10:45 PM    <DIR>          .
+08/19/2026  01:07 PM    <DIR>          ..
+07/31/2026  07:59 AM               208 Bing.url
+01/07/2025  10:36 PM    <DIR>          Dell
+05/14/2026  08:51 AM    <DIR>          Links
+               1 File(s)            208 bytes
+               4 Dir(s)  42,350,858,240 bytes free
+
+C:\Users\perse\Favorites>cd Links
+
+C:\Users\perse\Favorites\Links>cd ..
+
+C:\Users\perse\Favorites>cd links
+
+C:\Users\perse\Favorites\Links>cd ../..
+
+C:\Users\perse>cd /
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/19/2026  10:08 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              15 Dir(s)  42,350,903,296 bytes free
+
+C:\>cd Users/perse
+
+C:\Users\perse>cd documents
+
+C:\Users\perse\Documents>cd /
+
+C:\>k:
+
+K:\>c:
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/19/2026  10:08 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              15 Dir(s)  42,350,583,808 bytes free
+
+C:\>mkdir folder
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+08/19/2026  01:46 PM    <DIR>          folder
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/19/2026  10:08 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              16 Dir(s)  42,350,645,248 bytes free
+
+C:\>mkdir cli practice
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+08/19/2026  01:47 PM    <DIR>          cli
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+08/19/2026  01:46 PM    <DIR>          folder
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/19/2026  01:47 PM    <DIR>          practice
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/19/2026  10:08 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              18 Dir(s)  42,350,649,344 bytes free
+
+C:\>mkdir "cli practice"
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+08/19/2026  01:47 PM    <DIR>          cli
+08/19/2026  01:47 PM    <DIR>          cli practice
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+08/19/2026  01:46 PM    <DIR>          folder
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/19/2026  01:47 PM    <DIR>          practice
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/19/2026  10:08 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              19 Dir(s)  42,350,649,344 bytes free
+
+C:\>mkdir -p folder/new_folder
+The syntax of the command is incorrect.
+
+C:\>rmdir folder
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+08/19/2026  01:47 PM    <DIR>          cli
+08/19/2026  01:47 PM    <DIR>          cli practice
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/19/2026  01:47 PM    <DIR>          practice
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/19/2026  10:08 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              18 Dir(s)  42,350,206,976 bytes free
+
+C:\>rmdir cli practice
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+08/19/2026  01:47 PM    <DIR>          cli practice
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/19/2026  10:08 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              16 Dir(s)  42,350,202,880 bytes free
+
+C:\>rmdir "cli practice"
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/19/2026  10:08 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              15 Dir(s)  42,350,198,784 bytes free
+
+C:\>lsdajfls
+'lsdajfls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\>mkdir cli_practice
+
+C:\>cd cli_practice
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  01:54 PM    <DIR>          .
+               0 File(s)              0 bytes
+               1 Dir(s)  42,349,981,696 bytes free
+
+C:\cli_practice>echo Hello Everyone!
+Hello Everyone!
+
+C:\cli_practice>echo how is your learning going on?
+how is your learning going on?
+
+C:\cli_practice>echo Hello Everyone > note.txt
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  01:56 PM    <DIR>          .
+08/19/2026  01:56 PM                17 note.txt
+               1 File(s)             17 bytes
+               1 Dir(s)  42,349,686,784 bytes free
+
+C:\cli_practice>notepad note
+
+C:\cli_practice>echo How is your learning going on? >> note.txt
+
+C:\cli_practice>note.txt
+
+C:\cli_practice>mkdir folder
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:02 PM    <DIR>          .
+08/19/2026  02:02 PM    <DIR>          folder
+08/19/2026  01:58 PM                50 note.txt
+               1 File(s)             50 bytes
+               2 Dir(s)  42,349,240,320 bytes free
+
+C:\cli_practice>copy note.txt folder/hello.txt
+The syntax of the command is incorrect.
+
+C:\cli_practice>copy note.txt folder/
+The syntax of the command is incorrect.
+
+C:\cli_practice>xcopy note.txt folder/
+Does folder/ specify a file name
+or directory name on the target
+(F = file, D = directory)?
+Does folder/ specify a file name
+or directory name on the target
+(F = file, D = directory)? F
+Insufficient memory
+0 File(s) copied
+
+C:\cli_practice>cd folder
+
+C:\cli_practice\folder>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder
+
+08/19/2026  02:02 PM    <DIR>          .
+08/19/2026  02:02 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  42,349,297,664 bytes free
+
+C:\cli_practice\folder>cd ..
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:02 PM    <DIR>          .
+08/19/2026  02:02 PM    <DIR>          folder
+08/19/2026  01:58 PM                50 note.txt
+               1 File(s)             50 bytes
+               2 Dir(s)  42,349,289,472 bytes free
+
+C:\cli_practice>
+C:\cli_practice>cd ..
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+08/19/2026  02:02 PM    <DIR>          cli_practice
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/19/2026  10:08 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              16 Dir(s)  42,348,904,448 bytes free
+
+C:\>mkdir hello
+
+C:\>copy cli_practice/note.txt hello/
+The syntax of the command is incorrect.
+
+C:\>xcopy cli_practice/note.txt hello/
+Invalid switch - /note.txt
+
+C:\>cd cli_practice
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:02 PM    <DIR>          .
+08/19/2026  02:02 PM    <DIR>          folder
+08/19/2026  01:58 PM                50 note.txt
+               1 File(s)             50 bytes
+               2 Dir(s)  42,348,670,976 bytes free
+
+C:\cli_practice>rmdir folder
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:06 PM    <DIR>          .
+08/19/2026  01:58 PM                50 note.txt
+               1 File(s)             50 bytes
+               1 Dir(s)  42,348,666,880 bytes free
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:06 PM    <DIR>          .
+08/19/2026  01:58 PM                50 note.txt
+               1 File(s)             50 bytes
+               1 Dir(s)  42,348,056,576 bytes free
+
+C:\cli_practice>cd ..
+
+C:\>cd cli_pratice
+The system cannot find the path specified.
+
+C:\>cd cli_practice
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:06 PM    <DIR>          .
+08/19/2026  01:58 PM                50 note.txt
+               1 File(s)             50 bytes
+               1 Dir(s)  42,348,056,576 bytes free
+
+C:\cli_practice>del note.txt
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:09 PM    <DIR>          .
+               0 File(s)              0 bytes
+               1 Dir(s)  42,348,056,576 bytes free
+
+C:\cli_practice>mkdir random
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:09 PM    <DIR>          .
+08/19/2026  02:09 PM    <DIR>          random
+               0 File(s)              0 bytes
+               2 Dir(s)  42,348,056,576 bytes free
+
+C:\cli_practice>cd random
+
+C:\cli_practice\random>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\random
+
+08/19/2026  02:09 PM    <DIR>          .
+08/19/2026  02:09 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  42,348,056,576 bytes free
+
+C:\cli_practice\random>echo hello eveyone > note.txt
+
+C:\cli_practice\random>cd ..
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:09 PM    <DIR>          .
+08/19/2026  02:09 PM    <DIR>          random
+               0 File(s)              0 bytes
+               2 Dir(s)  42,348,003,328 bytes free
+
+C:\cli_practice>cd random
+
+C:\cli_practice\random>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\random
+
+08/19/2026  02:09 PM    <DIR>          .
+08/19/2026  02:09 PM    <DIR>          ..
+08/19/2026  02:09 PM                16 note.txt
+               1 File(s)             16 bytes
+               2 Dir(s)  42,348,298,240 bytes free
+
+C:\cli_practice\random>cd ..
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:09 PM    <DIR>          .
+08/19/2026  02:09 PM    <DIR>          random
+               0 File(s)              0 bytes
+               2 Dir(s)  42,348,298,240 bytes free
+
+C:\cli_practice>rmdir random
+The directory is not empty.
+
+C:\cli_practice>rmdir /s random
+random, Are you sure (Y/N)? y
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:11 PM    <DIR>          .
+               0 File(s)              0 bytes
+               1 Dir(s)  42,348,306,432 bytes free
+
+C:\cli_practice>mdkir random
+'mdkir' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\cli_practice>mkdir random
+
+C:\cli_practice>cd random
+
+C:\cli_practice\random>echo hello eveyone > note.txt
+
+C:\cli_practice\random>cd ..
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:11 PM    <DIR>          .
+08/19/2026  02:12 PM    <DIR>          random
+               0 File(s)              0 bytes
+               2 Dir(s)  42,348,318,720 bytes free
+
+C:\cli_practice>rmdir /s random
+random, Are you sure (Y/N)? n
+
+C:\cli_practice>rmdir /s /q random
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:12 PM    <DIR>          .
+               0 File(s)              0 bytes
+               1 Dir(s)  42,348,380,160 bytes free
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:12 PM    <DIR>          .
+               0 File(s)              0 bytes
+               1 Dir(s)  42,347,257,856 bytes free
+
+C:\cli_practice>echo hi > note.txt
+
+C:\cli_practice>mkdir folder
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:15 PM    <DIR>          .
+08/19/2026  02:15 PM    <DIR>          folder
+08/19/2026  02:15 PM                 5 note.txt
+               1 File(s)              5 bytes
+               2 Dir(s)  42,348,294,144 bytes free
+
+C:\cli_practice>copy note.txt folder\hello.txt
+        1 file(s) copied.
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:15 PM    <DIR>          .
+08/19/2026  02:15 PM    <DIR>          folder
+08/19/2026  02:15 PM                 5 note.txt
+               1 File(s)              5 bytes
+               2 Dir(s)  42,348,158,976 bytes free
+
+C:\cli_practice>cd folder
+
+C:\cli_practice\folder>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder
+
+08/19/2026  02:15 PM    <DIR>          .
+08/19/2026  02:15 PM    <DIR>          ..
+08/19/2026  02:15 PM                 5 hello.txt
+               1 File(s)              5 bytes
+               2 Dir(s)  42,348,158,976 bytes free
+
+C:\cli_practice\folder>note.txt
+'note.txt' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\cli_practice\folder>hello.txt
+
+C:\cli_practice\folder>cd ..
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:15 PM    <DIR>          .
+08/19/2026  02:15 PM    <DIR>          folder
+08/19/2026  02:15 PM                 5 note.txt
+               1 File(s)              5 bytes
+               2 Dir(s)  42,348,130,304 bytes free
+
+C:\cli_practice>rmdir /s /q folder
+
+C:\cli_practice>del note.txt
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:16 PM    <DIR>          .
+               0 File(s)              0 bytes
+               1 Dir(s)  42,347,991,040 bytes free
+
+C:\cli_practice>echo this is a msg > note.txt
+
+C:\cli_practice>mkdir folder1 folder2
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:18 PM    <DIR>          .
+08/19/2026  02:18 PM    <DIR>          folder1
+08/19/2026  02:18 PM    <DIR>          folder2
+08/19/2026  02:18 PM                16 note.txt
+               1 File(s)             16 bytes
+               3 Dir(s)  42,347,782,144 bytes free
+
+C:\cli_practice>copy note.txt folder1\
+        1 file(s) copied.
+
+C:\cli_practice>cd folder1
+
+C:\cli_practice\folder1>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder1
+
+08/19/2026  02:19 PM    <DIR>          .
+08/19/2026  02:18 PM    <DIR>          ..
+08/19/2026  02:18 PM                16 note.txt
+               1 File(s)             16 bytes
+               2 Dir(s)  42,347,249,664 bytes free
+
+C:\cli_practice\folder1>cd ..
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:18 PM    <DIR>          .
+08/19/2026  02:19 PM    <DIR>          folder1
+08/19/2026  02:18 PM    <DIR>          folder2
+08/19/2026  02:18 PM                16 note.txt
+               1 File(s)             16 bytes
+               3 Dir(s)  42,347,249,664 bytes free
+
+C:\cli_practice>copy note.txt folder2\hello.txt
+        1 file(s) copied.
+
+C:\cli_practice>cd folder2
+
+C:\cli_practice\folder2>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder2
+
+08/19/2026  02:20 PM    <DIR>          .
+08/19/2026  02:18 PM    <DIR>          ..
+08/19/2026  02:18 PM                16 hello.txt
+               1 File(s)             16 bytes
+               2 Dir(s)  42,346,856,448 bytes free
+
+C:\cli_practice\folder2>cd ..
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:18 PM    <DIR>          .
+08/19/2026  02:19 PM    <DIR>          folder1
+08/19/2026  02:20 PM    <DIR>          folder2
+08/19/2026  02:18 PM                16 note.txt
+               1 File(s)             16 bytes
+               3 Dir(s)  42,346,856,448 bytes free
+
+C:\cli_practice>move note.txt folder2\
+        1 file(s) moved.
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/19/2026  02:20 PM    <DIR>          .
+08/19/2026  02:19 PM    <DIR>          folder1
+08/19/2026  02:20 PM    <DIR>          folder2
+               0 File(s)              0 bytes
+               3 Dir(s)  42,346,942,464 bytes free
+
+C:\cli_practice>cd folder2
+
+C:\cli_practice\folder2>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder2
+
+08/19/2026  02:20 PM    <DIR>          .
+08/19/2026  02:20 PM    <DIR>          ..
+08/19/2026  02:18 PM                16 hello.txt
+08/19/2026  02:18 PM                16 note.txt
+               2 File(s)             32 bytes
+               2 Dir(s)  42,346,942,464 bytes free
+
+C:\cli_practice\folder2>echo hello > new.txt
+
+C:\cli_practice\folder2>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder2
+
+08/19/2026  02:24 PM    <DIR>          .
+08/19/2026  02:20 PM    <DIR>          ..
+08/19/2026  02:18 PM                16 hello.txt
+08/19/2026  02:24 PM                 8 new.txt
+08/19/2026  02:18 PM                16 note.txt
+               3 File(s)             40 bytes
+               2 Dir(s)  42,344,321,024 bytes free
+
+C:\cli_practice\folder2>mkdir my_folder
+
+C:\cli_practice\folder2>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder2
+
+08/19/2026  02:24 PM    <DIR>          .
+08/19/2026  02:20 PM    <DIR>          ..
+08/19/2026  02:18 PM                16 hello.txt
+08/19/2026  02:24 PM    <DIR>          my_folder
+08/19/2026  02:24 PM                 8 new.txt
+08/19/2026  02:18 PM                16 note.txt
+               3 File(s)             40 bytes
+               3 Dir(s)  42,344,382,464 bytes free
+
+C:\cli_practice\folder2>move *.txt my_folder\
+C:\cli_practice\folder2\hello.txt
+C:\cli_practice\folder2\new.txt
+C:\cli_practice\folder2\note.txt
+        3 file(s) moved.
+
+C:\cli_practice\folder2>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder2
+
+08/19/2026  02:25 PM    <DIR>          .
+08/19/2026  02:20 PM    <DIR>          ..
+08/19/2026  02:25 PM    <DIR>          my_folder
+               0 File(s)              0 bytes
+               3 Dir(s)  42,344,382,464 bytes free
+
+C:\cli_practice\folder2>cd my_folder
+
+C:\cli_practice\folder2\my_folder>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder2\my_folder
+
+08/19/2026  02:25 PM    <DIR>          .
+08/19/2026  02:25 PM    <DIR>          ..
+08/19/2026  02:18 PM                16 hello.txt
+08/19/2026  02:24 PM                 8 new.txt
+08/19/2026  02:18 PM                16 note.txt
+               3 File(s)             40 bytes
+               2 Dir(s)  42,344,382,464 bytes free
+
+C:\cli_practice\folder2\my_folder>cd ..
+
+C:\cli_practice\folder2>mkdir folder1 folder2 folder3 folder4
+
+C:\cli_practice\folder2>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder2
+
+08/19/2026  02:25 PM    <DIR>          .
+08/19/2026  02:20 PM    <DIR>          ..
+08/19/2026  02:25 PM    <DIR>          folder1
+08/19/2026  02:25 PM    <DIR>          folder2
+08/19/2026  02:25 PM    <DIR>          folder3
+08/19/2026  02:25 PM    <DIR>          folder4
+08/19/2026  02:25 PM    <DIR>          my_folder
+               0 File(s)              0 bytes
+               7 Dir(s)  42,344,251,392 bytes free
+
+C:\cli_practice\folder2>mkdir destination
+
+C:\cli_practice\folder2>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder2
+
+08/19/2026  02:26 PM    <DIR>          .
+08/19/2026  02:20 PM    <DIR>          ..
+08/19/2026  02:26 PM    <DIR>          destination
+08/19/2026  02:25 PM    <DIR>          folder1
+08/19/2026  02:25 PM    <DIR>          folder2
+08/19/2026  02:25 PM    <DIR>          folder3
+08/19/2026  02:25 PM    <DIR>          folder4
+08/19/2026  02:25 PM    <DIR>          my_folder
+               0 File(s)              0 bytes
+               8 Dir(s)  42,344,243,200 bytes free
+
+C:\cli_practice\folder2>move folder1 folder2 folder3 folder4 destination\
+The syntax of the command is incorrect.
+
+C:\cli_practice\folder2>move folder1 folder2 folder3 folder4 destination
+The syntax of the command is incorrect.
+
+C:\cli_practice\folder2>
+C:\cli_practice\folder2>cd my_folder
+
+C:\cli_practice\folder2\my_folder>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder2\my_folder
+
+08/19/2026  02:25 PM    <DIR>          .
+08/19/2026  02:26 PM    <DIR>          ..
+08/19/2026  02:18 PM                16 hello.txt
+08/19/2026  02:24 PM                 8 new.txt
+08/19/2026  02:18 PM                16 note.txt
+               3 File(s)             40 bytes
+               2 Dir(s)  42,344,255,488 bytes free
+
+C:\cli_practice\folder2\my_folder>mkdir random
+
+C:\cli_practice\folder2\my_folder>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder2\my_folder
+
+08/19/2026  02:27 PM    <DIR>          .
+08/19/2026  02:26 PM    <DIR>          ..
+08/19/2026  02:18 PM                16 hello.txt
+08/19/2026  02:24 PM                 8 new.txt
+08/19/2026  02:18 PM                16 note.txt
+08/19/2026  02:27 PM    <DIR>          random
+               3 File(s)             40 bytes
+               3 Dir(s)  42,344,255,488 bytes free
+
+C:\cli_practice\folder2\my_folder>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder2\my_folder
+
+08/19/2026  02:27 PM    <DIR>          .
+08/19/2026  02:26 PM    <DIR>          ..
+08/19/2026  02:18 PM                16 hello.txt
+08/19/2026  02:24 PM                 8 new.txt
+08/19/2026  02:18 PM                16 note.txt
+08/19/2026  02:27 PM    <DIR>          random
+               3 File(s)             40 bytes
+               3 Dir(s)  42,344,255,488 bytes free
+
+C:\cli_practice\folder2\my_folder>copy hello.txt new.txt random\
+The syntax of the command is incorrect.
+
+C:\cli_practice\folder2\my_folder>
