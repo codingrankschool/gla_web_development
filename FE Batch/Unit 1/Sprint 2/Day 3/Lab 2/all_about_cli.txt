@@ -1,0 +1,914 @@
+How many ways can you operate computer?
+----------------------------------
+There are following two ways to operate your computer:
+1. GUI - Graphical user interface
+2. CLI - Command Line Interface
+
+
+1. GUI - Graphical user interface
+---------------------------------
+ - Using graphics like images, icons, and other animated model to operate computers
+ - We simply see and click on particular feature and proceed with operating that  
+   particular feature in computer.
+
+Note: You as a developer made application's GUI super simple so that now a days anyone in this entire globe can use computer using GUI.
+
+                                                     Hardware
+USER  --> Application(Notepad/Whatsapp) --> OS --> [RAM + CPU]
+                                                Binary Language(1010101)
+
+Example: WhatsApp:
+Features: call, chat, change dp, status others
+
+
+2. CLI - Command Line Interface:
+--------------------------------
+ - Here using commands you can operate computers
+ - You write some supported/pre-defined commands in your eng language, and your computer  
+   starts working accordingly.
+
+                                                        Hardware
+USER  --> CLI(Command Prompt/Terminal/bash) --> OS --> [RAM + CPU]
+                                                       Binary Language(1010101)
+
+Note: It is not for everyone but its best choice for IT Engineers or Developers
+
+
+What are the common operations do we do in computer regularly?
+-------------------------------------------------------------
+1. Create/Open/Delete Files and Folders
+2. Opens/Closes Files and Applications
+3. Copy and Pasting
+4. Others
+
+How to open CLI:
+- WINDOW - Command Prompt/Powershell
+------------------------------------
+- WINDOW + R ---> type cmd or CMD and hit enter
+- Click on Search and type Command Prompt and open
+
+Examples:
+
+Microsoft Windows [Version 10.0.26200.9168]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\perse>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse
+
+08/19/2026  06:08 PM    <DIR>          .
+01/05/2025  09:54 PM    <DIR>          ..
+01/04/2025  12:25 PM             6,579 -1.14-windows.xml
+07/05/2026  02:19 AM    <DIR>          .ai_completion
+02/19/2025  08:05 PM    <DIR>          .android
+01/19/2026  02:35 PM    <DIR>          .arduinoIDE
+05/29/2026  10:35 AM    <DIR>          .aws
+03/21/2025  11:58 AM             4,665 .bash_history
+06/07/2026  10:11 AM    <DIR>          .bob
+06/07/2026  10:11 AM    <DIR>          .bobide
+09/06/2024  05:02 PM            21,908 .boto
+06/07/2026  10:38 AM    <DIR>          .cache
+06/07/2026  08:07 AM    <DIR>          .cagent
+08/17/2026  12:28 PM    <DIR>          .claude
+08/19/2026  04:13 PM            42,270 .claude.json
+08/19/2026  10:32 AM            40,899 .claude.json.backup
+06/07/2026  08:07 AM    <DIR>          .config
+06/07/2026  10:53 AM    <DIR>          .continue
+07/29/2026  10:32 AM    <DIR>          .copilot
+08/05/2026  10:30 AM    <DIR>          .cursor
+08/19/2026  04:41 PM    <DIR>          .docker
+12/21/2023  12:22 PM    <DIR>          .eclipse
+08/24/2025  12:00 AM                20 .erlang.cookie
+07/29/2026  12:10 PM    <DIR>          .gemini
+07/05/2026  02:19 AM               120 .gitconfig
+03/21/2025  11:37 AM                 0 .gitignore
+09/06/2024  05:09 PM    <DIR>          .gsutil
+12/29/2025  05:26 AM    <DIR>          .icube-remote-ssh
+12/15/2024  10:31 PM    <DIR>          .ipython
+05/29/2026  10:28 AM    <DIR>          .kiro
+08/18/2026  04:05 PM                20 .lesshst
+08/01/2026  11:40 PM    <DIR>          .m2
+02/11/2024  05:10 PM    <DIR>          .ms-ad
+08/12/2026  06:46 PM               402 .node_repl_history
+06/03/2026  11:27 AM                77 .npmrc
+06/07/2026  11:40 PM    <DIR>          .redis-for-vscode
+02/22/2024  05:17 PM    <DIR>          .ssh
+12/21/2023  12:28 PM    <DIR>          .sts4
+07/05/2026  10:34 AM    <DIR>          .trae
+01/01/2026  06:41 PM    <DIR>          .trae-aicc
+08/25/2025  03:35 PM             1,144 .viminfo
+12/21/2023  01:47 PM    <DIR>          .vscode
+05/31/2026  01:46 PM    <DIR>          .vscode-shared
+12/29/2025  05:26 AM    <DIR>          ai_completion
+01/07/2025  10:45 PM    <DIR>          Contacts
+01/19/2024  01:31 PM                13 demo.txt
+08/19/2026  10:30 AM    <DIR>          Desktop
+08/18/2026  03:46 PM    <DIR>          Documents
+08/19/2026  02:48 PM    <DIR>          Downloads
+01/07/2025  10:45 PM    <DIR>          Favorites
+06/01/2026  10:48 PM    <DIR>          IdeaProjects
+01/07/2025  10:45 PM    <DIR>          Links
+04/21/2026  10:29 AM    <DIR>          Music
+05/17/2024  09:02 AM    <DIR>          npm-cache
+07/07/2026  06:25 PM    <DIR>          OneDrive
+07/02/2026  11:53 AM    <DIR>          Pictures
+12/21/2023  07:12 PM    <DIR>          Postman
+01/07/2025  10:45 PM    <DIR>          Saved Games
+06/15/2026  09:40 PM    <DIR>          Searches
+08/22/2025  07:10 PM    <DIR>          Videos
+              13 File(s)        118,117 bytes
+              47 Dir(s)  47,034,195,968 bytes free
+
+C:\Users\perse>cd Postman
+
+C:\Users\perse\Postman>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Postman
+
+12/21/2023  07:12 PM    <DIR>          .
+08/19/2026  06:08 PM    <DIR>          ..
+12/21/2023  07:12 PM    <DIR>          files
+               0 File(s)              0 bytes
+               3 Dir(s)  47,033,626,624 bytes free
+
+C:\Users\perse\Postman>cd .
+
+C:\Users\perse\Postman>cd ..
+
+C:\Users\perse>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse
+
+08/19/2026  06:08 PM    <DIR>          .
+01/05/2025  09:54 PM    <DIR>          ..
+01/04/2025  12:25 PM             6,579 -1.14-windows.xml
+07/05/2026  02:19 AM    <DIR>          .ai_completion
+02/19/2025  08:05 PM    <DIR>          .android
+01/19/2026  02:35 PM    <DIR>          .arduinoIDE
+05/29/2026  10:35 AM    <DIR>          .aws
+03/21/2025  11:58 AM             4,665 .bash_history
+06/07/2026  10:11 AM    <DIR>          .bob
+06/07/2026  10:11 AM    <DIR>          .bobide
+09/06/2024  05:02 PM            21,908 .boto
+06/07/2026  10:38 AM    <DIR>          .cache
+06/07/2026  08:07 AM    <DIR>          .cagent
+08/17/2026  12:28 PM    <DIR>          .claude
+08/19/2026  04:13 PM            42,270 .claude.json
+08/19/2026  10:32 AM            40,899 .claude.json.backup
+06/07/2026  08:07 AM    <DIR>          .config
+06/07/2026  10:53 AM    <DIR>          .continue
+07/29/2026  10:32 AM    <DIR>          .copilot
+08/05/2026  10:30 AM    <DIR>          .cursor
+08/19/2026  04:41 PM    <DIR>          .docker
+12/21/2023  12:22 PM    <DIR>          .eclipse
+08/24/2025  12:00 AM                20 .erlang.cookie
+07/29/2026  12:10 PM    <DIR>          .gemini
+07/05/2026  02:19 AM               120 .gitconfig
+03/21/2025  11:37 AM                 0 .gitignore
+09/06/2024  05:09 PM    <DIR>          .gsutil
+12/29/2025  05:26 AM    <DIR>          .icube-remote-ssh
+12/15/2024  10:31 PM    <DIR>          .ipython
+05/29/2026  10:28 AM    <DIR>          .kiro
+08/18/2026  04:05 PM                20 .lesshst
+08/01/2026  11:40 PM    <DIR>          .m2
+02/11/2024  05:10 PM    <DIR>          .ms-ad
+08/12/2026  06:46 PM               402 .node_repl_history
+06/03/2026  11:27 AM                77 .npmrc
+06/07/2026  11:40 PM    <DIR>          .redis-for-vscode
+02/22/2024  05:17 PM    <DIR>          .ssh
+12/21/2023  12:28 PM    <DIR>          .sts4
+07/05/2026  10:34 AM    <DIR>          .trae
+01/01/2026  06:41 PM    <DIR>          .trae-aicc
+08/25/2025  03:35 PM             1,144 .viminfo
+12/21/2023  01:47 PM    <DIR>          .vscode
+05/31/2026  01:46 PM    <DIR>          .vscode-shared
+12/29/2025  05:26 AM    <DIR>          ai_completion
+01/07/2025  10:45 PM    <DIR>          Contacts
+01/19/2024  01:31 PM                13 demo.txt
+08/19/2026  10:30 AM    <DIR>          Desktop
+08/18/2026  03:46 PM    <DIR>          Documents
+08/19/2026  02:48 PM    <DIR>          Downloads
+01/07/2025  10:45 PM    <DIR>          Favorites
+06/01/2026  10:48 PM    <DIR>          IdeaProjects
+01/07/2025  10:45 PM    <DIR>          Links
+04/21/2026  10:29 AM    <DIR>          Music
+05/17/2024  09:02 AM    <DIR>          npm-cache
+07/07/2026  06:25 PM    <DIR>          OneDrive
+07/02/2026  11:53 AM    <DIR>          Pictures
+12/21/2023  07:12 PM    <DIR>          Postman
+01/07/2025  10:45 PM    <DIR>          Saved Games
+06/15/2026  09:40 PM    <DIR>          Searches
+08/22/2025  07:10 PM    <DIR>          Videos
+              13 File(s)        118,117 bytes
+              47 Dir(s)  47,031,308,288 bytes free
+
+C:\Users\perse>cd Documents
+
+C:\Users\perse\Documents>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Documents
+
+08/18/2026  03:46 PM    <DIR>          .
+08/19/2026  06:08 PM    <DIR>          ..
+06/06/2026  08:23 AM         4,236,740 audio.m4a
+08/08/2026  08:02 PM         3,192,246 CSS_CLASS_NOTES.pdf
+08/07/2026  08:28 AM         2,871,114 dry_run_photos.pdf
+06/04/2026  11:04 PM    <DIR>          Good DOM Examples
+08/05/2026  07:49 PM         3,267,769 io_streams_board_examples.pdf
+06/12/2026  07:15 AM    <DIR>          Javascript
+08/12/2026  08:02 PM         2,105,187 javascript_introduction.pdf
+08/03/2026  08:07 PM         5,447,439 multithreading_part1_analogies.pdf
+08/14/2026  08:55 PM         1,400,745 object_and_hof_js.pdf
+06/15/2026  09:40 PM    <DIR>          OneNote Notebooks
+08/03/2026  08:06 PM         2,256,428 streams_api.pdf
+08/18/2026  04:34 PM    <DIR>          Test Repository
+07/18/2026  01:46 AM    <DIR>          Todo Application
+06/18/2026  08:19 PM    <DIR>          weather_app
+12/21/2023  01:58 PM    <DIR>          workspace-spring-tool-suite-4-4.21.0.RELEASE
+07/24/2026  09:52 PM    <DIR>          Zoom
+               8 File(s)     24,777,668 bytes
+              10 Dir(s)  47,031,308,288 bytes free
+
+C:\Users\perse\Documents>cd Javascript
+
+C:\Users\perse\Documents\Javascript>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Users\perse\Documents\Javascript
+
+06/12/2026  07:15 AM    <DIR>          .
+08/18/2026  03:46 PM    <DIR>          ..
+06/12/2026  09:12 AM               707 dataTypeExample.js
+06/12/2026  09:19 AM                67 operatorExample.js
+06/12/2026  07:10 AM             1,863 variableExample.js
+               3 File(s)          2,637 bytes
+               2 Dir(s)  47,031,369,728 bytes free
+
+C:\Users\perse\Documents\Javascript>cd ../..
+
+C:\Users\perse>cd Documents/Javascript
+
+C:\Users\perse\Documents\Javascript>cd /
+
+C:\>cd Users/perse/Documents/Javascript
+
+C:\Users\perse\Documents\Javascript>cd /
+
+C:\>k:
+
+K:\>c:
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+08/19/2026  02:20 PM    <DIR>          cli_practice
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+08/19/2026  02:05 PM    <DIR>          hello
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/20/2026  09:03 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              17 Dir(s)  47,032,483,840 bytes free
+
+C:\>rmdir /s /q cli_practice
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+08/19/2026  02:05 PM    <DIR>          hello
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/20/2026  09:03 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              16 Dir(s)  47,032,553,472 bytes free
+
+C:\>mkdir practice
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+08/19/2026  02:05 PM    <DIR>          hello
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/20/2026  09:51 AM    <DIR>          practice
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/20/2026  09:03 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              17 Dir(s)  47,032,291,328 bytes free
+
+C:\>mkdir my folder
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+08/20/2026  09:52 AM    <DIR>          folder
+08/19/2026  02:05 PM    <DIR>          hello
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+08/20/2026  09:52 AM    <DIR>          my
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/20/2026  09:51 AM    <DIR>          practice
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/20/2026  09:03 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              19 Dir(s)  47,031,967,744 bytes free
+
+C:\>mkdir "my folder"
+
+C:\>mkdir "my folder"
+A subdirectory or file my folder already exists.
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+08/20/2026  09:52 AM    <DIR>          folder
+08/19/2026  02:05 PM    <DIR>          hello
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+08/20/2026  09:52 AM    <DIR>          my
+08/20/2026  09:52 AM    <DIR>          my folder
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/20/2026  09:51 AM    <DIR>          practice
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/20/2026  09:03 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              20 Dir(s)  47,032,020,992 bytes free
+
+C:\>mkdir my_folder
+
+C:\>mkdir Unit_1 Unit_2 Unit_3
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+08/20/2026  09:52 AM    <DIR>          folder
+08/19/2026  02:05 PM    <DIR>          hello
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+08/20/2026  09:52 AM    <DIR>          my
+08/20/2026  09:52 AM    <DIR>          my folder
+08/20/2026  09:53 AM    <DIR>          my_folder
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/20/2026  09:51 AM    <DIR>          practice
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+08/20/2026  09:53 AM    <DIR>          Unit_1
+08/20/2026  09:53 AM    <DIR>          Unit_2
+08/20/2026  09:53 AM    <DIR>          Unit_3
+01/05/2025  09:54 PM    <DIR>          Users
+08/20/2026  09:03 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              24 Dir(s)  47,032,020,992 bytes free
+
+C:\>cd Unit_1
+
+C:\Unit_1>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Unit_1
+
+08/20/2026  09:53 AM    <DIR>          .
+               0 File(s)              0 bytes
+               1 Dir(s)  47,031,037,952 bytes free
+
+C:\Unit_1>mkdir Sprint_1 Sprint_2 Sprint_3
+
+C:\Unit_1>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Unit_1
+
+08/20/2026  09:54 AM    <DIR>          .
+08/20/2026  09:54 AM    <DIR>          Sprint_1
+08/20/2026  09:54 AM    <DIR>          Sprint_2
+08/20/2026  09:54 AM    <DIR>          Sprint_3
+               0 File(s)              0 bytes
+               4 Dir(s)  47,030,968,320 bytes free
+
+C:\Unit_1>rmdir Sprint_1 Sprint_2 Sprint3
+The system cannot find the file specified.
+
+C:\Unit_1>rmdir Sprint_1 Sprint_2 Sprint_3
+The system cannot find the file specified.
+The system cannot find the file specified.
+
+C:\Unit_1>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\Unit_1
+
+08/20/2026  09:59 AM    <DIR>          .
+               0 File(s)              0 bytes
+               1 Dir(s)  47,031,435,264 bytes free
+
+C:\Unit_1>cd ..
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+08/20/2026  09:52 AM    <DIR>          folder
+08/19/2026  02:05 PM    <DIR>          hello
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+08/20/2026  09:52 AM    <DIR>          my
+08/20/2026  09:52 AM    <DIR>          my folder
+08/20/2026  09:53 AM    <DIR>          my_folder
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/20/2026  09:51 AM    <DIR>          practice
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+08/20/2026  09:59 AM    <DIR>          Unit_1
+08/20/2026  09:53 AM    <DIR>          Unit_2
+08/20/2026  09:53 AM    <DIR>          Unit_3
+01/05/2025  09:54 PM    <DIR>          Users
+08/20/2026  09:03 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              24 Dir(s)  47,031,185,408 bytes free
+
+C:\>rmdir my folder
+
+C:\>mkdir "my folder"
+A subdirectory or file my folder already exists.
+
+C:\>rmdir "my folder"
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+08/19/2026  02:05 PM    <DIR>          hello
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+08/20/2026  09:53 AM    <DIR>          my_folder
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/20/2026  09:51 AM    <DIR>          practice
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+08/20/2026  09:59 AM    <DIR>          Unit_1
+08/20/2026  09:53 AM    <DIR>          Unit_2
+08/20/2026  09:53 AM    <DIR>          Unit_3
+01/05/2025  09:54 PM    <DIR>          Users
+08/20/2026  09:03 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              21 Dir(s)  47,031,128,064 bytes free
+
+C:\>rmdir my_folder unit_1 unit_2 unit_3
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+08/19/2026  02:05 PM    <DIR>          hello
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/20/2026  09:51 AM    <DIR>          practice
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/20/2026  09:03 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              17 Dir(s)  47,031,128,064 bytes free
+
+C:\>rmdir practice
+
+C:\>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\
+
+12/21/2023  12:34 AM    <DIR>          Apps
+01/05/2026  07:56 PM    <DIR>          data
+12/21/2023  12:34 AM    <DIR>          dell
+12/21/2023  12:34 AM    <DIR>          Drivers
+12/21/2023  12:34 AM    <DIR>          e-logo
+08/19/2026  02:05 PM    <DIR>          hello
+04/14/2025  12:02 AM    <DIR>          inetpub
+04/16/2026  01:15 PM    <DIR>          LJM1130_M1210_MFP_Full_Solution
+04/16/2026  01:10 PM    <DIR>          M1130MFP_M1210MFP_Full_Solution
+08/24/2023  11:05 PM    <DIR>          mongosh-1.10.6-win32-x64
+06/02/2026  09:44 AM    <DIR>          msys64
+04/01/2024  12:56 PM    <DIR>          PerfLogs
+08/01/2026  11:59 PM    <DIR>          Program Files
+05/29/2026  09:43 AM    <DIR>          Program Files (x86)
+01/05/2025  09:54 PM    <DIR>          Users
+08/20/2026  09:03 AM    <DIR>          Windows
+               0 File(s)              0 bytes
+              16 Dir(s)  47,031,128,064 bytes free
+
+C:\>rmdir Users
+Access is denied.
+
+C:\>mkdir cli_practice
+
+C:\>cd cli_practice
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/20/2026  10:01 AM    <DIR>          .
+               0 File(s)              0 bytes
+               1 Dir(s)  47,030,788,096 bytes free
+
+C:\cli_practice>echo Hello Everyone
+Hello Everyone
+
+C:\cli_practice>echo How is your learning going on?
+How is your learning going on?
+
+C:\cli_practice>echo Hello Everyone > note.txt
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/20/2026  10:04 AM    <DIR>          .
+08/20/2026  10:04 AM                17 note.txt
+               1 File(s)             17 bytes
+               1 Dir(s)  47,030,513,664 bytes free
+
+C:\cli_practice>notepad note.txt
+
+C:\cli_practice>echo How is your learning going on? >> note.txt
+
+C:\cli_practice>note.txt
+
+C:\cli_practice>note.txt
+
+C:\cli_practice>echo test > note.txt
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/20/2026  10:04 AM    <DIR>          .
+08/20/2026  10:11 AM                 7 note.txt
+               1 File(s)              7 bytes
+               1 Dir(s)  46,965,211,136 bytes free
+
+C:\cli_practice>del note.txt
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/20/2026  10:13 AM    <DIR>          .
+               0 File(s)              0 bytes
+               1 Dir(s)  46,961,016,832 bytes free
+
+C:\cli_practice>echo hello > note.txt
+
+C:\cli_practice>echo hello > abc.txt
+
+C:\cli_practice>echo hello > xyz.txt
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/20/2026  10:13 AM    <DIR>          .
+08/20/2026  10:13 AM                 8 abc.txt
+08/20/2026  10:13 AM                 8 note.txt
+08/20/2026  10:13 AM                 8 xyz.txt
+               3 File(s)             24 bytes
+               1 Dir(s)  46,961,082,368 bytes free
+
+C:\cli_practice>del *.txt
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/20/2026  10:14 AM    <DIR>          .
+               0 File(s)              0 bytes
+               1 Dir(s)  47,012,106,240 bytes free
+
+C:\cli_practice>mkdir random
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/20/2026  10:15 AM    <DIR>          .
+08/20/2026  10:15 AM    <DIR>          random
+               0 File(s)              0 bytes
+               2 Dir(s)  47,012,118,528 bytes free
+
+C:\cli_practice>cd random
+
+C:\cli_practice\random>echo hello > note.txt
+
+C:\cli_practice\random>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\random
+
+08/20/2026  10:15 AM    <DIR>          .
+08/20/2026  10:15 AM    <DIR>          ..
+08/20/2026  10:15 AM                 8 note.txt
+               1 File(s)              8 bytes
+               2 Dir(s)  47,012,184,064 bytes free
+
+C:\cli_practice\random>cd ..
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/20/2026  10:15 AM    <DIR>          .
+08/20/2026  10:15 AM    <DIR>          random
+               0 File(s)              0 bytes
+               2 Dir(s)  47,012,184,064 bytes free
+
+C:\cli_practice>rmdir random
+The directory is not empty.
+
+C:\cli_practice>rmdir /s random
+random, Are you sure (Y/N)? n
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/20/2026  10:15 AM    <DIR>          .
+08/20/2026  10:15 AM    <DIR>          random
+               0 File(s)              0 bytes
+               2 Dir(s)  47,012,048,896 bytes free
+
+C:\cli_practice>rmdir /s /q random
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/20/2026  10:17 AM    <DIR>          .
+               0 File(s)              0 bytes
+               1 Dir(s)  47,011,979,264 bytes free
+
+C:\cli_practice>
+
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/20/2026  10:22 AM    <DIR>          .
+08/20/2026  10:22 AM    <DIR>          folder1
+08/20/2026  10:22 AM    <DIR>          folder2
+08/20/2026  10:22 AM    <DIR>          folder3
+08/20/2026  10:22 AM                 8 note.txt
+               1 File(s)              8 bytes
+               4 Dir(s)  47,010,865,152 bytes free
+
+C:\cli_practice>copy note.txt folder1\
+        1 file(s) copied.
+
+C:\cli_practice>cd folder1
+
+C:\cli_practice\folder1>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\cli_practice\folder1>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder1
+
+08/20/2026  10:23 AM    <DIR>          .
+08/20/2026  10:22 AM    <DIR>          ..
+08/20/2026  10:22 AM                 8 note.txt
+               1 File(s)              8 bytes
+               2 Dir(s)  47,011,213,312 bytes free
+
+C:\cli_practice\folder1>cd ..
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/20/2026  10:22 AM    <DIR>          .
+08/20/2026  10:23 AM    <DIR>          folder1
+08/20/2026  10:22 AM    <DIR>          folder2
+08/20/2026  10:22 AM    <DIR>          folder3
+08/20/2026  10:22 AM                 8 note.txt
+               1 File(s)              8 bytes
+               4 Dir(s)  47,011,147,776 bytes free
+
+C:\cli_practice>copy note.txt folder2\file.txt
+        1 file(s) copied.
+
+C:\cli_practice>cd folder2
+
+C:\cli_practice\folder2>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder2
+
+08/20/2026  10:24 AM    <DIR>          .
+08/20/2026  10:22 AM    <DIR>          ..
+08/20/2026  10:22 AM                 8 file.txt
+               1 File(s)              8 bytes
+               2 Dir(s)  47,010,893,824 bytes free
+
+C:\cli_practice\folder2>cd..
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/20/2026  10:22 AM    <DIR>          .
+08/20/2026  10:23 AM    <DIR>          folder1
+08/20/2026  10:24 AM    <DIR>          folder2
+08/20/2026  10:22 AM    <DIR>          folder3
+08/20/2026  10:22 AM                 8 note.txt
+               1 File(s)              8 bytes
+               4 Dir(s)  47,010,893,824 bytes free
+
+C:\cli_practice>move note.txt folder3\
+        1 file(s) moved.
+
+C:\cli_practice>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice
+
+08/20/2026  10:25 AM    <DIR>          .
+08/20/2026  10:23 AM    <DIR>          folder1
+08/20/2026  10:24 AM    <DIR>          folder2
+08/20/2026  10:25 AM    <DIR>          folder3
+               0 File(s)              0 bytes
+               4 Dir(s)  47,010,541,568 bytes free
+
+C:\cli_practice>cd folder3
+
+C:\cli_practice\folder3>dir
+ Volume in drive C is OS
+ Volume Serial Number is BAF1-183D
+
+ Directory of C:\cli_practice\folder3
+
+08/20/2026  10:25 AM    <DIR>          .
+08/20/2026  10:25 AM    <DIR>          ..
+08/20/2026  10:22 AM                 8 note.txt
+               1 File(s)              8 bytes
+               2 Dir(s)  47,010,537,472 bytes free
+
+C:\cli_practice\folder3>
+
+
+
+
+
