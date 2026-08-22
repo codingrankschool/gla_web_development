@@ -1,0 +1,10 @@
+How to submit assignment and folder structure:
+Chintu
+	Web_Developement_Assignments
+                    HTML
+			HTML_Text_and_Formatting_Elements
+				problem1Solution.html
+				problem2Solution.html
+                                    
+                    CSS
+                    Javascript
