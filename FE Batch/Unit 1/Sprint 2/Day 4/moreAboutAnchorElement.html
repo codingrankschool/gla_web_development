@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Anchor Elements Attributes Example</title>
+</head>
+<body>  
+
+    <!-- link to another html page -->
+    <!-- <a href="./blogPage.html">Link</a>
+    <br> -->
+
+    <!-- target attribute:
+    - It deciedes where to open particular resource
+    -its values
+    -default - _self => it opens the resource in the same tab or page
+    other values:
+    - _blank -> it opens the resouce in the new page or in new tab 
+
+    - two other values as well:
+    - _parent:
+    - _top:
+    -->
+    <!-- <a target="_self" href="./blogPage.html">Self Link</a>
+    <br>
+    <a target="_blank" href="./blogPage.html">Blank Link</a> -->
+
+    <!-- title attribute
+    - create a info box on webpage for suggestion
+    -->
+    <!-- <br>
+    <a title="dry_run_pdf" href="./dry_run_photos.pdf">Link</a> -->
+
+    <!-- download attribute -->
+     <!-- <br>
+     <a download = "my_pdf" title="dry_run_pdf" href="./dry_run_photos.pdf">Document Link</a> -->
+
+     <!-- rel attribute
+     rel: relationship
+     - it tells/define the relationship between source and destionation resouces 
+     -->
+      <a rel="blog_page" target="_blank" href="./blogPage.html">Blank Link</a>
+
+      <br>
+
+      <!-- for security -->
+       <a rel="noopener referer" target="_blank" href="./blogPage.html">Blank Link</a>
+
+       <!-- SEO will skip this  -->
+       <a rel="nofollow" target="_blank" href="./blogPage.html">Blank Link</a>
+    
+</body>
+</html>
