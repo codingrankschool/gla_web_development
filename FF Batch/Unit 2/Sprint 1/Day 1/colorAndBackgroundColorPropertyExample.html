@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Understanding color and background property</title>
+  </head>
+  <body>
+    <!-- using color name 
+    Note: in real time product development we neve use color by color name.
+    
+    There are limitation in case of color name
+    -->
+    <h1 style="background-color: teal; color: white">GLA University</h1>
+    <p style="background-color: rgb(70, 12, 12); color: white">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quae veritatis
+      expedita id dolorem deserunt assumenda reprehenderit corrupti, voluptatem
+      ratione cumque iusto vitae explicabo in earum, modi accusantium facere
+      magni.
+    </p>
+
+    <!-- using decimal value 
+    rgb(255, 0, 0) => red
+    rgb(0, 255, 0) => green
+    rgb(0, 0, 255) => blue
+
+    Note: it is less usable because it is alos having limited combination of colors
+    -->
+
+    <hr />
+    <h1 style="background-color: rgb(255, 0, 0); color: rgb(255, 255, 255)">
+      GLA University
+    </h1>
+    <p style="background-color: rgb(255, 0, 0); color: rgb(255, 255, 255)">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quae veritatis
+      expedita id dolorem deserunt assumenda reprehenderit corrupti, voluptatem
+      ratione cumque iusto vitae explicabo in earum, modi accusantium facere
+      magni.
+    </p>
+
+    <!-- using hexa decimal code (0-9A-F)
+    Note: it combination of 6 digit followed by #
+    #000000 => black
+    #ff0000 => red
+    #00ff00 => green
+    #0000ff => blue
+    #ffffff => white
+
+    Note: It is recommeded to use in the modern web pages as it is having huge combinations of colors
+    -->
+
+    <hr />
+    <h1 style="background-color: #00aff0; color: #fcfbfe">GLA University</h1>
+    <p style="background-color: #fffc00; color: #00000">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quae veritatis
+      expedita id dolorem deserunt assumenda reprehenderit corrupti, voluptatem
+      ratione cumque iusto vitae explicabo in earum, modi accusantium facere
+      magni.
+    </p>
+
+    <!-- 
+     Resources:
+     Link - https://materialui.co/htmlcolors/
+     Color Picker Chrome Extension Name - colorZilla
+    -->
+  </body>
+</html>
