@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Understanding Inline and Block Element</title>
+</head>
+<body>
+
+    <!-- HTML Elements are divided into two parts:
+    1. Block Element: They block the entire line
+    Other terms:start on a new line and take full width:
+    Examples: <div>, <p>, <h1>–<h6>, <ul>, <ol>, <li>, <section>, <article>, <header>, <footer>, <nav>, <main>, <table>, <form>.
+
+    2. Inline Element: They block till their presence only.
+    Other terms: flow within text: 
+    Examples: <a>, <img>, <span>,input, <b>, <i>, <strong>, <em>, <code>, <br>.
+    -->
+
+    <!-- Block Element Example -->
+     <!-- <h1 style="background-color: red;">I'm heading one</h1>
+     <span style="background-color: red;">I'm span</span>
+     <p style="background-color: teal;">I'm para</p> -->
+
+    <!-- Inline Element  -->
+     <!-- <a style="background-color: red;" href="">Link</a>
+     <input type="text">
+     <button>Submit</button> -->
+
+     <!-- How to convert inline to block and block to inline 
+     with the help of display property
+     display: inline
+     display: block 
+     -->
+
+     <!-- <h1 style="background-color: yellow;display:inline;">I'm heading one</h1>
+
+     <span style="background-color: teal;display: block;">Span Element</span> -->
+
+     <!-- How to create box:
+     for creating box need following things:
+     1. html element: div/span
+     2. height
+     3. width
+     For box visulization: background color/border 
+     -->
+
+     <div style="width: 100px;height: 100px;background-color: red;text-align: center;color: white; display: inline-block;">
+        <span>Box 1</span>
+     </div>
+
+     <div style="width: 100px;height: 100px;background-color: red;text-align: center;color: white;display: inline-block;">
+        <span>Box 2</span>
+     </div>
+
+     <div style="width: 100px;height: 100px;background-color: red;text-align: center;color: white;display: inline-block;">
+        <span>Box 3</span>
+     </div>
+    
+</body>
+</html>
