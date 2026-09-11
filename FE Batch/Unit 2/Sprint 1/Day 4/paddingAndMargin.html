@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Understanding border, margin, and padding</title>
+</head>
+<body>
+
+    <!-- How to create box:
+    div, height, width, visualization(background-color/inspect/border) 
+    -->
+
+
+    <!-- border property:
+    - It creates thickness around any html element. 
+
+    syntax:
+    border: thinness(in px) type(dotted/dashed/solid) color(default color - black);
+
+    border to specific side:
+    border-left: 1px solid red;
+    border-right: 2px dashed teal;
+    border-bottom: 3px dotted blue;
+    border-top: 1px solid;
+
+    shorthand way:
+    same order to all side:
+    border: 2px solid red;
+    -->
+
+    <!-- <div style="
+    width: 200px;
+    height: 200px;
+    /* border-left:2px solid red;
+    border-right: 2px dashed teal;
+    border-bottom: 3px dotted blue;
+    border-top: 1px solid; */
+    border: 2px solid red;
+    ">
+
+    </div> -->
+
+
+    <!-- margin property:
+     - space outside border or space outside element.
+
+     How to use:
+     margin to specific side:
+     margin-top: 10px;
+     margin-right: 10px;
+     margin-bottom: 10px;
+     margin-left: 10px;
+
+     shorthand way to above:
+     margin: top right bottom left;
+     margin: 20px 10px 10px 10px;
+
+     more shorthand way:
+     margin: top-bottom left-right;
+     margin: 10px 40px;
+
+     same margin all side:
+     margin: 10px;
+    -->
+
+    <!-- <div style="
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    margin: 10px;
+    ">
+    I'm content
+    </div> -->
+
+    <!-- padding property:
+     - space between border and content or space within element itself
+
+     How to use:
+     padding to specific side:
+     padding-top: 10px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+
+     shorthand way to above:
+     padding: top right bottom left;
+     padding: 20px 10px 10px 10px;
+
+     more shorthand way:
+     padding: top-bottom left-right;
+     padding: 10px 40px;
+
+     same padding all side:
+     padding: 10px;
+    -->
+
+    <div style="
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    ">
+    I'm content
+    </div>
+    
+</body>
+</html>
+
+<!-- 
+Note: on adding padding and border on particular html element then its hieght and width increaes.
+
+Why this happens?
+Because of one css property: box-sizzing
+by default box-sizzing havint its value as content-box
+
+How to stop this: change the value
+content-box
+   |
+border-box
+
+-->
