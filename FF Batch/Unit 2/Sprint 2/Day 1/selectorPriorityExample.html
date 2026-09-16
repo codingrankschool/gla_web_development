@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Selectors Priority</title>
+
+    <style>
+
+        *{
+            margin: 0px;
+        }
+        p{
+            margin: 10px;
+        }
+        .common{
+            margin: 0;
+        }
+
+        #special1, #special2{
+            margin: 20px;
+        }
+                
+    </style>
+
+</head>
+<body>
+
+    <h1>GLA University</h1>
+    <p style="margin: 0;" id="special1" class="common">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam</p>
+    <hr>
+    <p class="common">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam</p>
+    <hr>
+    <p  style="margin: 0;" id="special2" class="common">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam</p>
+    <hr>
+    <p class="common">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam</p>
+    
+</body>
+</html>
+
+<!-- 
+Selector Priority:
+1. Inline CSS - 1000%
+2. Id selector - 100%
+3. class selector - 10%
+4. tag/type selector - 1%
+5. Universal Selector - 0%
+-->

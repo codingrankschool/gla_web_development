@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Understanding tag and type selector</title>
+
+    <style>
+
+        /* internal css */
+
+        /* tag/element selector 
+        - here by tag/element name you can select particular html element.
+
+        Example:
+        */
+
+        h1{
+            background-color: red;
+            color: white;
+            padding: 10px;
+        }
+
+        p{
+            background-color: teal;
+            color: white;
+            padding: 20px;
+            text-align: justify;
+        }
+
+        /* type/attribute selector
+        - using attribute you can select particular element.
+
+        Example
+         */
+
+         a{
+            font-size: 40px;
+            text-decoration: none;
+         }
+
+         a[href="https://google.com"]{
+            color: red;
+         }
+
+         input[type="email"]{
+            background-color: red;
+         }
+
+    </style>
+
+</head>
+<body>
+    
+    <h1>GLA University</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam deleniti cupiditate quod, voluptatem omnis tenetur quas culpa similique, sapiente nemo, sit doloribus sint explicabo impedit! Numquam laudantium excepturi culpa. Eligendi.</p>
+
+    <hr>
+
+    <a href="https://google.com">Google</a>
+    <br>
+    <a href="https://flipkart.com">Flipkart</a>
+    <br>
+    <input type="text" placeholder="Enter Name">
+    <br>
+    <input type="email" placeholder="Enter Email">
+
+
+
+    
+</body>
+</html>
