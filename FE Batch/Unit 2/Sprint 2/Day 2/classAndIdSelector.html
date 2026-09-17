@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Understanding class and id selector</title>
+
+    <style>
+
+        #csk-team{
+            background-color: red;
+            padding: 10px;
+        }
+        .csk-player{
+            background-color: yellow;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        #mi-team{
+            background-color: yellow;
+            padding: 10px;
+        }
+        .mi-player{
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .main{
+            border-radius: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- 
+    Id: its always unique
+    - Whenever you want to give unique/specific style ot particular html element
+
+    Syntax:
+    #id_name, #id-name
+
+    class:Its always common
+    - Whenever you want to give common style ot html element
+
+    Syntax:
+
+    .class_name, .class-name
+    -->
+    
+    <div id="csk-team">
+        <div class="csk-player main">csk-player-1</div>
+        <div class="csk-player">csk-player-2</div>
+        <div class="csk-player">csk-player-3</div>
+        <div class="csk-player">csk-player-4</div>
+        <div class="csk-player">csk-player-5</div>
+    </div>
+
+    <hr>
+
+    <div id="rcb-team">
+        <div class="rcb-player">rcb-player-1</div>
+        <div class="rcb-player">rcb-player-2</div>
+        <div class="rcb-player">rcb-player-3</div>
+        <div class="rcb-player">rcb-player-4</div>
+        <div class="rcb-player">rcb-player-5</div>
+    </div>
+
+    <hr>
+
+    <div id="mi-team">
+        <div class="mi-player">mi-player-1</div>
+        <div class="mi-player">mi-player-2</div>
+        <div class="mi-player">mi-player-3</div>
+        <div class="mi-player">mi-player-4</div>
+        <div class="mi-player">mi-player-5</div>
+    </div>
+
+
+</body>
+</html>

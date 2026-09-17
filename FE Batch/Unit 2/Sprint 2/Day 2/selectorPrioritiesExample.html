@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Understanding Selectors Priorities</title>
+
+    <style>
+        /* tag selector - 1% */
+        p{
+            margin: 16px;
+        }
+
+        /* universal selector - 0% */
+
+        *{
+            margin: 0;
+        }
+
+        /* class selector - 10% */
+
+        .common{
+            margin: 0;
+        }
+
+        /* id selector - 100% */
+        #special{
+            margin: 30px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>GLA University</h1>
+    <p style="margin: 0;" id="special" class="common">I'm paragraph - 1</p>
+    <p class="common">I'm paragraph - 2</p>
+    <p style="margin: 0;" id="special" class="common">I'm paragraph - 3</p>
+    <p class="common">I'm paragraph - 4</p>
+    <p class="common">I'm paragraph - 5</p>
+    
+</body>
+</html>
+
+<!-- In css every selector having some priority:
+0. Inline CSS -1000%
+1. id - 100%
+2. class - 10% 
+3. tag/type/element/peusdo classes/elements - 1%
+4. universal selector - 0%
+-->
