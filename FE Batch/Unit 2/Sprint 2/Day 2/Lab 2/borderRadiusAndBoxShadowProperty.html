@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Understanding border radius and box shadow property</title>
+</head>
+<bodyx  >
+
+    <div
+    style="
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    /* border-top-left-radius: 50px;
+    border-bottom-left-radius: 20px; */
+    border-radius: 50%;
+    box-shadow: 0 0 10px -5px red;
+
+    /*
+    box-shadow: horizontal vertical blur spread color; 
+    horizontal - x-axis
+    +ve value -> left to right
+    -ve value -> right to left
+    
+    vertical - y axis
+    +ve value -> top to bottom
+    -ve value -> bottom to top
+
+    */
+
+    /* 
+    When same radius all the side
+    border-radius: 20px; 
+    
+    Different/Specific Radius on different: 
+    long way:
+    border-top-left-radius: ;
+    border-top-right-radius: padding: ;;
+
+    shorthand way:
+    border-radius: top-left top-right bottom-right bottom-left;
+    
+    */
+    "
+    >
+
+    <img style="border-radius: 50%;" width="100%" height="100%" src="https://t3.ftcdn.net/jpg/02/99/04/20/360_F_299042079_vGBD7wIlSeNl7vOevWHiL93G4koMM967.jpg" alt="image">
+
+    </div>
+    
+</bodyx>
+</html>
