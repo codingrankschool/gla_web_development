@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Understanding Child Selector(>)</title>
+
+    <style>
+
+        /* Select all p child inside container */
+        #container>p{
+            background-color: red;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="container">
+        <p>I'm paragraph - 1</p>
+        <p>I'm paragraph - 2</p>
+        <p>I'm paragraph - 3</p>
+
+        <div>
+            <p>I'm paragraph - 4</p>
+            <p>I'm paragraph - 5</p>
+            <p>I'm paragraph - 6</p>
+            <div>
+                <p>I'm paragraph - 7</p>
+                <p>I'm paragraph - 8</p>
+                <p>I'm paragraph - 9</p>
+            </div>
+        </div>
+        <div>
+            <h2>I'm  heading two</h2>
+            <div>
+                <span>I'm span element</span>
+            </div>
+            <p>I'm special paragraph -1</p>
+            <p>I'm special paragraph -2</p>
+        </div>
+        <div>
+            <div>
+                <p>I'm bad paragraph</p>
+            </div>
+            <h2>I'm bad heading...</h2>
+        </div>
+        <p>I'm super special paragraph</p>
+    </div>
+    <h3>I'm heading three</h3>
+    <p>I'm outside pragraph</p>
+    
+</body>
+</html>
