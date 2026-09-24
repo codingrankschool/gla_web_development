@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Understanding Grid Common Properties</title>
+
+    <style>
+
+        #box{
+            border: 1px solid red;
+            padding: 10px;
+            display: grid;
+
+            /* to take columns - we define each column width space separated. */
+            /* grid-template-columns: 100px 100px; */
+
+            grid-template-columns:repeat(3, 1fr);
+
+            /* to take rows - we define each row height space separated. */
+            /* grid-template-rows: 100px 100px 100px ; */
+
+            grid-template-rows: repeat(3, 100px);
+
+            gap: 20px;
+        }
+
+        #box>div{
+            border: 2px solid red;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    
+</body>
+</html>
+
+
+<!-- fractional unit
+1fr - 100%
+2fr - 50%
+3fr - 33.33% 
+
+-->

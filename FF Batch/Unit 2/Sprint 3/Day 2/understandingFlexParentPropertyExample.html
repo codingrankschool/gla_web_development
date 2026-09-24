@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex Parent Property Examples</title>
+
+    <style>
+
+        #container{
+            border: 2px solid;
+            height: 400px;
+            padding: 10px;
+            display: flex;
+
+            /* flex parents 
+            flex-direction: Once flex is one dimension property therefore it decides all the childs are to align row wise or column wise.
+
+            flex-direction: default(row)
+
+            other values:
+            column
+            row-reverse
+            column-reverse
+            */
+            
+            /* flex-direction: column-reverse; */
+
+            /* justify-content 
+            - It aligns the childs in horizontal direction(row/x-axis)
+
+            default: start;
+            other values:
+            center
+            end
+            space-around
+            space-between
+            space-evenly
+            */
+
+            /* justify-content: space-around; */
+
+            /* flex-wrap
+            - It wrap overflowing childs to the next row.
+
+            default: nowrap
+            other values:
+            wrap
+            wrap-reverse
+            */
+            /* flex-wrap: wrap-reverse; */
+
+            /* align-items 
+            - It aligns the items vertically with limited features
+            default: stretch
+
+            other values:
+            start
+            center
+            end
+            */
+
+            /* align-items: center;
+            justify-content: center; */
+
+            /* align-content
+            Unlike justify content property, it aligns items/childs/elements in vertical direction
+
+            Note: To use align content property all the childs must be rows wise.
+
+            default: stretch
+            other values
+            start
+            center
+            end
+            space-around
+            space-between
+            space-evenly
+            */
+            flex-wrap: wrap;
+            align-content: space-evenly;
+
+        }
+        #container>div{
+            border: 1px solid red;
+            padding: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="container">
+        <div>Box-1</div>
+        <div>Box-2</div>
+        <div>Box-3</div>
+        <div>Box-4</div>
+        <div>Box-5</div>
+        <div>Box-6</div>
+        <div>Box-7</div>
+        <div>Box-8</div>
+        <div>Box-9</div>
+        <div>Box-10</div>
+        <div>Box-11</div>
+        <div>Box-12</div>
+        <div>Box-13</div>
+        <div>Box-14</div>
+        <div>Box-15</div>
+    </div>
+    
+</body>
+</html>

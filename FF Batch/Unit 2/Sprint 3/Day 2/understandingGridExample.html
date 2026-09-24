@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Understanding Grid</title>
+
+    <style>
+
+        #box{
+            border: 1px solid;
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 200px 200px;
+            gap: 10px;
+        }
+        #box>div:nth-child(odd){
+            background-color: red;
+        }
+
+        #box>div:nth-child(even){
+            background-color: teal;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Understanding Position Property</title>
+
+    <style>
+
+        #box{
+            border: 1px solid red;
+            padding: 10px;
+            position: relative;
+        }
+
+        #box>div{
+            width: 50px;
+            border: 1px solid green;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #box>div:first-child{
+            background-color: red;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        /* #box>div:nth-child(2){
+            background-color: yellow;
+            position: relative;
+            z-index: -4; 
+        } */
+
+    </style>
+
+</head>
+<body>
+
+    <!-- 
+    - By default all html elements are having position value as static(0)
+    - It means html elements are written inside html document they're gonna visible same on web page in same manner.
+
+    NOTE: By Default all the html elements are there in flow of each other
+
+    - We can change its flow by other position value:
+    relative
+    absolute
+    sticky
+    fixed
+
+    Once you used any of above value then follow sub position properties get activated.
+
+    top
+    left
+    bottom
+    right
+    z-index
+    -->
+
+    <div id="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    
+</body>
+</html>

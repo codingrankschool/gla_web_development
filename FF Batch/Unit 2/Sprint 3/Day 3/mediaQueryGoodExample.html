@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing Particular Deshboard Layout</title>
+
+    <style>
+
+        /* default css for big screen */
+        #dashboard{
+            border: 1px solid red;
+            padding: 10px;
+
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 100px 200px;
+            gap: 10px;
+            grid-template-areas: 
+            "nav nav nav nav"
+            "box1 box2 box3 box4"
+            ;
+        }
+
+        #dashboard>div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            color: white;
+        }
+
+        #dashboard>div:nth-child(1){
+            background-color: yellow;
+            grid-area: nav;
+            color: black;
+        }
+
+        #dashboard>div:nth-child(2){
+            background-color: black;
+            grid-area: box1;
+        }
+
+        #dashboard>div:nth-child(3){
+            background-color: green;
+            grid-area: box2;
+        }
+
+        #dashboard>div:nth-child(4){
+            background-color: pink;
+            grid-area: box3;
+        }
+
+        #dashboard>div:nth-child(5){
+            background-color: blue;
+            grid-area: box4;
+        }
+
+        /* specific css for screen size wise. */
+        /* medium screen - tablets */
+        @media all and (min-width:768px) and (max-width:1024px) {
+            
+            #dashboard{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 100px repeat(2, 200px);
+            grid-template-areas: 
+            "nav nav"
+            "box1 box2"
+            "box3 box4";
+            
+           }
+
+           #dashboard>div{
+            display: flex;
+            justify-content: flex-start;
+            align-items: start;
+            font-size: 25px;
+            padding: 10px;
+           }
+
+        
+
+        }
+
+        /* small screen - mobiles */
+        @media all and (max-width:767px) {
+
+            #dashboard{
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 100px repeat(4, 200px);
+            grid-template-areas: 
+            "nav"
+            "box1"
+            "box2"
+            "box3"
+            "box4"
+            ;
+            
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <div id="dashboard">
+        <div>Navigation</div>
+        <div>Box - 1</div>
+        <div>Box - 2</div>
+        <div>Box - 3</div>
+        <div>Box - 4</div>
+    </div>
+    
+</body>
+</html>

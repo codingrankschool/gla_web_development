@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Child Properties</title>
+
+    <style>
+
+        #container{
+            border: 2px solid red;
+            padding: 10px;
+            display: flex;
+        }
+
+        #container>div{
+            border: 1px solid;
+            width: 30px;
+            padding: 10px;
+
+            /* flex-grow 
+            It utilises the empty space of the container just by growing child width
+
+            defualt: 0(deactive)
+            other value:
+            any positive value more than 0
+            */
+            /* flex-grow: 1; */
+
+            /* flex shrink property 
+            It shrinks the child widith according to the screen sizes
+
+            default: 1(actived)
+            other values:
+            0
+            any positive value more than 0
+            */
+
+            /* flex-shrink: 1; */
+
+            /* order: 0; */
+
+            /* flex-basis property
+            it provides dynamic width
+            */
+        }
+
+        #container>div:nth-child(2){
+            /* flex-grow: 2; */
+            /* flex-shrink: 2; */
+            /* order: -3; */
+            flex-basis: 60px;
+        }
+
+        #container>div:nth-child(5){
+            /* flex-grow: 6; */
+            /* flex-shrink: 3; */
+            /* order: -1; */
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>    
+</body>
+</html>
