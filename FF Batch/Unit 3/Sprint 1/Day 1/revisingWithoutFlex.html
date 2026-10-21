@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why flex is required?</title>
+
+    <style>
+        
+        #box{
+            border: 1px solid red;
+            padding: 10px;
+        }
+
+        #box>div{
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        #box>div:last-child{
+            margin-left: 700px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="box">
+        <div>Box-1</div>
+        <div>Box-2</div>
+        <div>Box-3</div>
+    </div>
+    
+</body>
+</html>

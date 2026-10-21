@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why flex is required?</title>
+
+    <style>
+        
+        #box{
+            border: 1px solid red;
+            height: 100vh;
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+
+            /* flex parent property example */
+            flex-direction: row;
+
+            /* alings childs/items row wise(horizontally/x-axis) */
+            justify-content: space-evenly;
+
+            /* aligns childs/items column wise with limited facilities */
+            /* align-items: center; */
+
+            /* flex-wrap => wraps the overflowing childs/items to the next line */
+            flex-wrap: wrap;
+
+
+            /* alings childs/items column wise(vetically/y-axis)
+            Note: childs must be row wise.
+            */
+
+            align-content: space-evenly;
+
+            
+        }
+
+        #box>div{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            
+            /* flex-shrink: 0; */
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="box">
+       <div>Box-1</div>
+       <div>Box-2</div>
+       <div>Box-3</div>
+       <div>Box-4</div>
+       <div>Box-5</div>
+       <div>Box-6</div>
+       <div>Box-7</div>
+       <div>Box-8</div>
+       <div>Box-9</div>
+       <div>Box-10</div>
+       <div>Box-11</div>
+       <div>Box-12</div>
+       <div>Box-13</div>
+       <div>Box-14</div>
+       <div>Box-15</div>
+       <div>Box-16</div>
+       <div>Box-17</div>
+       <div>Box-18</div>
+       <div>Box-19</div>
+       <div>Box-20</div>
+       <div>Box-21</div>
+       <div>Box-22</div>
+       <div>Box-23</div>
+       <div>Box-24</div>
+       <div>Box-25</div>
+       <div>Box-26</div>
+       <div>Box-27</div>
+       <div>Box-28</div>
+       <div>Box-29</div>
+       <div>Box-30</div>
+       <div>Box-31</div>
+       <div>Box-32</div>
+       <div>Box-33</div>
+       <div>Box-34</div>
+       <div>Box-35</div>
+       <div>Box-36</div>
+       <div>Box-37</div>
+       <div>Box-38</div>
+       <div>Box-39</div>
+       <div>Box-40</div>
+       <div>Box-41</div>
+       <div>Box-42</div>
+       <div>Box-43</div>
+       <div>Box-44</div>
+       <div>Box-45</div>
+       <div>Box-46</div>
+       <div>Box-47</div>
+       <div>Box-48</div>
+       <div>Box-49</div>
+       <div>Box-50</div>
+    </div>
+    
+</body>
+</html>
