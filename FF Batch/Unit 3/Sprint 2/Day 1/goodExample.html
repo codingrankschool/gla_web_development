@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing Website Layout</title>
+
+    <style>
+
+        *{
+            margin: 0;
+        }
+
+        #layout{
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr) ;
+            grid-template-rows: 100px repeat(2, 1fr) 1fr;
+            gap: 10px;
+
+            grid-template-areas: 
+            "header header header header"
+            "box1 box2 aside aside"
+            "box3 box4 aside aside"
+            "footer footer footer footer"
+            ;
+        }
+
+        #layout>div:nth-child(1){
+            background-color: yellow;
+            grid-area: header;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #layout>div:nth-child(2){
+            background-color: teal;
+            grid-area: box1;
+        }
+        #layout>div:nth-child(3){
+            background-color: pink;
+            grid-area: box2;
+            
+        }
+        #layout>div:nth-child(4){
+            background-color: red;
+            grid-area: box3;
+            
+        }
+        #layout>div:nth-child(5){
+            background-color: tomato;
+            grid-area: box4;
+        }
+        #layout>div:nth-child(6){
+            background-color: cyan;
+            grid-area: aside;
+        }
+        #layout>div:nth-child(7){
+            background-color: black;
+            grid-area: footer;
+        }
+    
+    </style>
+
+</head>
+<body>
+
+    <div id="layout">
+        <div>Headers</div>
+        <div>Box1</div>
+        <div>Box2</div>
+        <div>Box3</div>
+        <div>Box4</div>
+        <div>Aside</div>
+        <div>Footer</div>
+    </div>
+    
+</body>
+</html>
