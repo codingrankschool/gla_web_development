@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Animation Example</title>
+
+    <style>
+
+        #box{
+            width:100px;
+            height: 100px;
+            background-color: teal;
+            border-radius: 50%;
+            margin: auto;
+
+
+            /* animation-name: bounce;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate-reverse; */
+            
+            /* animation: name duration timing-function delay iteration-count direction; */
+            animation: bounce 2s linear 0s infinite normal;
+
+        }
+
+        @keyframes bounce {
+            0%{
+                background-color: red;
+            }
+
+            40%{
+                background-color: teal;
+            }
+
+            70%{
+                background-color: green;
+            }
+
+            100%{
+                background-color: aqua;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="box"></div>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Understanding Animation</title>
+
+    <style>
+
+        #bounce{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: teal;
+            margin: 40px auto;
+            
+
+            /* animation-name: bouncing-ball;
+            animation-duration: .5s;
+            animation-iteration-count: infinite;
+
+            animation-timing-function: linear;
+            animation-direction: alternate; */
+
+            animation: bouncing-ball .5s linear infinite  ;
+
+            /* animation: name duration timing-function delay iteration-count direction; */
+        }
+
+        @keyframes bouncing-ball {
+            from{
+                transform: translateY(0);
+            }
+            to{
+                transform: translateY(100px);
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="bounce"></div>
+    
+</body>
+</html>

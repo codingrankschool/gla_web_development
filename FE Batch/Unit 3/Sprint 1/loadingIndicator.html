@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Loading Indicator</title>
+
+    <style>
+
+        #loader{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border-top: 4px solid red;
+            border-left: 4px solid yellow;
+            border-bottom: 4px dotted;
+            border-right: 4px solid green;
+            margin: 50px auto;
+
+            animation: loading .7s linear infinite;
+        }
+
+        @keyframes loading {
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="loader">
+
+    </div>
+    
+</body>
+</html>

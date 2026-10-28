@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Image Slider Example</title>
+
+    <style>
+
+        #slider{
+            width: 100%;
+            max-width: 70%;
+            height: 300px;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .slides{
+            display: flex;
+            width: 300%;
+            height: 100%;
+            animation: slidekro 8s linear infinite;
+        }
+
+
+        .slides img{
+            object-fit: cover;
+            width: 33.33%;
+            height: 100%;
+            flex-shrink: 0;
+        }
+
+
+        @keyframes slidekro {
+            0%, 28%{
+                transform: translateX(0);
+            }
+            33%, 61%{
+                transform: translateX(-33.33%);
+            }
+            66%, 99%{
+                transform: translateX(-66.6667%);
+            }
+            100%{
+                transform: translateX(0);
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="slider">
+        <div class="slides">
+            <img src="https://picsum.photos/seed/mountain/900/400" alt="Mountain">
+            <img src="https://picsum.photos/seed/ocean/900/400" alt="Ocean">
+            <img src="https://picsum.photos/seed/sky/900/400" alt="">
+            <img src="https://picsum.photos/seed/bike/900/400" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>
