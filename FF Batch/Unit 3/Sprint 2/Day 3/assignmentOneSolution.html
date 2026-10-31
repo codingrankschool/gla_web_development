@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing required layout and implementing transition and animation</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #f1f5f9;
+            color: #172554;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        /* navbar */
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 8%;
+            background: white;
+        }
+
+        nav h2 {
+            color: #2563eb;
+        }
+
+        /* slider */
+
+        #slider {
+            height: 320px;
+            overflow: hidden;
+        }
+
+        #slides {
+            display: flex;
+            width: 300%;
+            height: 100%;
+            animation: slide 12s infinite;
+        }
+
+        .slide {
+            width: 33.3333%;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .slide:nth-child(1) {
+            background-image: url(https://picsum.photos/id/1018/1200/500);
+        }
+
+        .slide:nth-child(2) {
+            background-image: url(https://picsum.photos/id/1015/1200/500);
+        }
+
+        .slide:nth-child(3) {
+            background-image: url(https://picsum.photos/id/1016/1200/500);
+        }
+
+        .slide h1{
+            font-size: clamp(28px, 5vw, 48px);
+            animation: appear 1s linear;
+            margin: 0;
+        }
+
+        .btn{
+            border: none;
+            padding: 13px 25px;
+            background: #2563eb;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform .7s;
+        }
+
+        .btn:hover{
+            transform: scale(1.1);
+        }
+
+        @keyframes appear {
+            0%{
+                transform: translateY(25px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slide {
+
+            0%,
+            28% {
+                transform: translateX(0);
+            }
+
+            33%,
+            61% {
+                transform: translateX(-33.3333%);
+            }
+
+            66%,
+            94% {
+                transform: translateX(-66.6667%);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- navbar section -->
+    <nav>
+        <h2>Animatex</h2>
+        <span>Learn CSS Animation</span>
+    </nav>
+
+    <!-- image slider -->
+    <section id="slider">
+
+        <div id="slides">
+            <div class="slide">
+                <h1>Exlpore the World</h1>
+                <p>Bring your website to life.</p>
+                <button class="btn">Discover More</button>
+            </div>
+            <div class="slide">
+                <h1>Learn Something New</h1>
+                <p>Create beautiful web experinces.</p>
+                <button class="btn">Start Learning</button>
+            </div>
+            <div class="slide">
+                <h1>Imagine and Create</h1>
+                <p>Make your ideas move.</p>
+                <button class="btn">Explore Now</button>
+            </div>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
