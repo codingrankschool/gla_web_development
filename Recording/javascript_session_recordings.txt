@@ -1,0 +1,12 @@
+1. Conditional Statement: 
+https://youtu.be/r3yexfDB3Sg?si=VYUU6M6A9eT1CGqx
+2. Unary Operator & Loop: 
+https://youtu.be/e9FX9-dm040?si=qie3vFWPKpENRNA5
+3. Nested Loop & Intro to Array:
+https://youtu.be/kWlIser8DAk?si=HQmfPI3kncV33jQL
+4. More about Array & Built in methods: 
+https://youtu.be/xwAUukVg2b8?si=uEE_Zm8vIFROJyLI
+5. String and Functions: 
+https://youtu.be/Q_-kKJMQrw8?si=dRVDAD2NzY1lfO5E
+6. Object:
+https://youtu.be/K0a_m05-fv0?si=fFjAnUE6neXimTcj

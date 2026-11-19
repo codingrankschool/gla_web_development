@@ -1,0 +1,5 @@
+1. Flex & Grid Properties:
+https://youtu.be/-QJFrnb0X8Q
+
+2. Media Query and Positions:
+https://youtu.be/4CvNlBFaioM
