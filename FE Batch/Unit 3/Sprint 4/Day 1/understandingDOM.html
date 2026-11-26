@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- external css -->
+     <link rel="stylesheet" href="./mycss.css">
+    <!-- internal css -->
+    <style>
+    </style>
+
+
+</head>
+<body>
+
+    <h1>Welcome to DOM</h1>
+    <div>
+        <h1>I'm inside div</h1>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas corporis 
+        doloremque recusandae libero adipisci omnis repudiandae, similique eum! 
+        Officiis ratione natus vitae incidunt laboriosam, laborum alias voluptatibus 
+        hic aliquid eum.</p>
+
+        <h1>Welcome to DOM</h1>
+    <div>
+        <h1>I'm inside div</h1>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas corporis 
+        doloremque recusandae libero adipisci omnis repudiandae, similique eum! 
+        Officiis ratione natus vitae incidunt laboriosam, laborum alias voluptatibus 
+        hic aliquid eum.</p>
+
+
+        <h1>Welcome to DOM</h1>
+    <div>
+        <h1>I'm inside div</h1>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas corporis 
+        doloremque recusandae libero adipisci omnis repudiandae, similique eum! 
+        Officiis ratione natus vitae incidunt laboriosam, laborum alias voluptatibus 
+        hic aliquid eum.</p>
+
+
+        <h1>Welcome to DOM</h1>
+    <div>
+        <h1>I'm inside div</h1>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas corporis 
+        doloremque recusandae libero adipisci omnis repudiandae, similique eum! 
+        Officiis ratione natus vitae incidunt laboriosam, laborum alias voluptatibus 
+        hic aliquid eum.</p>
+    
+</body>
+</html>
+
+<script>
+
+    // console.log("WELCOME TO JAVASCRIPT")
+
+    // function welcome(){
+    //     console.log("Welcome Everyone from function")
+    // }
+
+    // welcome()
+
+
+    // var student = {
+    //     name:"Rakesh",
+    //     age: 45,
+    //     address:"Noida"
+    // }
+
+    // console.log(student)
+
+    // console.log(student.name)
+
+
+    // DOM: Document Object Model?
+    //How javascript and html communicate together?
+    //HTML: Collections of html elements
+    //JS: Variables, functions, arrays and objects.
+
+    //How JS communicate to HTML=?
+
+    //Important Note: Whenever you load your html file 
+    // to the browser then internally it gets converted to document object.
+
+    console.log(document)
+    console.log(document.title)
+    console.log(document.body.childNodes[1].innerText)
+
+
+    document.body.childNodes[1].innerText = "Hey, Are you getting?"
+
+    document.body.childNodes[1].style.backgroundColor = "black"
+    document.body.childNodes[1].style.color = "white"
+    document.body.childNodes[1].style.padding = "10px"
+
+
+    console.log(document.body.childNodes)
+
+
+</script>

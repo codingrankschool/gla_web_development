@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding taking input from input and form</title>
+
+    <style>
+        #result {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px;
+            border: 1px solid red;
+            border-radius: 20px;
+            opacity: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <form>
+
+        <input name="name" type="text" id="name" placeholder="Enter Name" required>
+        <br>
+        <input name="email" type="email" id="email" placeholder="Enter Email" required>
+        <br>
+        <input name="password" type="password" id="password" placeholder="Enter Password" required>
+        <br>
+        <select name="city" id="city" required>
+            <option value="#">City</option>
+            <option value="noida">Noida</option>
+            <option value="delhi">Delhi</option>
+        </select>
+        <br>
+
+        <input type="submit">
+
+    </form>
+
+
+    <div id="result">
+
+    </div>
+
+</body>
+
+</html>
+
+<script>
+
+    var form = document.querySelector("form")
+
+    form.addEventListener('submit', function (event) {
+        
+        event.preventDefault()
+
+        var student = {
+            studentName: form.name.value,
+            studentEmail: form.email.value,
+            studentPassword: form.password.value,
+            studentCity: form.city.value
+        }
+
+        console.log(student.studentCity=="#")
+
+        if (student.studentCity == "#") {
+            alert("Please selct city as well")
+            return;
+        }
+
+        displayStudent(student)
+
+    })
+
+    var resultContainer = document.getElementById("result")
+
+    function displayStudent(student) {
+        //how to create html element using js:
+        //document.createElement()
+        var name = document.createElement("h2")
+        var email = document.createElement("p")
+        var city = document.createElement("p")
+
+        name.innerText = student.studentName
+        email.innerText = student.studentEmail
+        city.innerText = student.studentCity
+
+        resultContainer.style.opacity = "1"
+        resultContainer.append(name, email, city)
+
+    }
+
+
+
+</script>

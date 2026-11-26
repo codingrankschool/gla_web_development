@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Document Object</title>
+</head>
+<body>
+
+    <h1>Welcome to DOM</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis in 
+        temporibus cum placeat earum reprehenderit sed dolor quae ex qui quidem 
+        tempora magnam, aspernatur repellat consequatur exercitationem neque similique. Nam!</p>
+    
+
+    <div id="container">
+        <h2>I'm heading two</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, provident?</p>
+    </div>
+</body>
+</html>
+
+<script>
+
+    console.log(document)
+    console.log(document.title)
+    console.log(document.head)
+    console.log(document.body)
+
+    console.log(document.body.childNodes)
+    console.log(document.body.childNodes[1].innerText)
+
+    document.body.childNodes[1].innerText = "Are you getting?"
+
+    //sytling:
+
+    document.body.childNodes[1].style.backgroundColor = "red"
+    document.body.childNodes[1].style.color = "white"
+    document.body.childNodes[1].style.padding = "10px"
+
+    // console.log(document.body.childNodes)
+    //document.body.childNodes[5].innerHTML = "<h1>I'm heading one</h1>"
+    document.body.childNodes[5].style.backgroundColor = "yellow"
+    document.body.childNodes[5].style.padding = "10px"
+
+
+    //Note: above process is not used in modern application to access paritcualr html element for interactivity and styling.
+
+    //Thera lots of method support inside document object.
+
+
+
+</script>

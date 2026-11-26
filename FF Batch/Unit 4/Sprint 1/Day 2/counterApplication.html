@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Counter Application</title>
+
+    <style>
+
+        #counterContainer{
+            border: 1px solid red;
+            padding: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- <div id="counterContainer">
+        <button id="increment-btn">Increment</button>
+        <button id="decrement-btn">Decrement</button>
+        <h2 id="result">0</h2>
+    </div> -->
+
+
+    <div id="counterContainer">
+        <button class="count-btn">+</button>
+        <button class="count-btn">-</button>
+        <h2 id="result">0</h2>
+    </div>
+    
+</body>
+</html>
+
+<script>
+
+    // var incrementBtn = document.getElementById("increment-btn")
+    // var decrementBtn = document.getElementById("decrement-btn")
+    // var resultBox = document.querySelector("#result")
+
+    // var count = 0
+    // incrementBtn.addEventListener("click", function(){
+    //     // count++
+    //     // if(count > 0){
+    //     //     decrementBtn.disabled = "false"
+    //     // }
+    //     resultBox.innerText = ++count
+    // })
+
+    // decrementBtn.addEventListener("click", function(){
+    //     // if(count <= 0){
+    //     //     decrementBtn.disabled = "true"
+    //     //     return
+    //     // }
+    //     // count--
+    //     resultBox.innerText = --count
+    // })
+
+
+    var clickBtns = document.querySelectorAll(".count-btn")
+    var resultBox = document.querySelector("#result")
+
+    // console.log(clickBtns)
+    for(var i=0;i<clickBtns.length;i++){
+        clickBtns[i].addEventListener("click", clickHandler)
+    }
+
+    var count = 0
+    function clickHandler(){
+        //event object: its being shared to all the html element when we add any event to it.
+        console.log(event)
+        //this event object tells you two important thing:
+        //1. type: what type of event - click
+        //2. target: to which element you've added event - btn
+
+        var sign = event.target.innerText
+        if(sign == "+"){
+            count++
+        }else{
+            count--
+        }
+
+        resultBox.innerText = count
+    }
+
+</script>

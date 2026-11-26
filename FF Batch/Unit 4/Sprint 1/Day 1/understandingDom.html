@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to DOM</title>
+
+    <!-- external css -->
+     <link rel="stylesheet" href="">
+
+    <!-- internal css -->
+     <style></style>
+
+</head>
+<body>
+
+    <h1>Welcome to Document Object Model</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla accusamus assumenda eveniet 
+        maxime, eos quos quia odio animi. Quae inventore exercitationem, quisquam commodi culpa velit
+         illo? Accusantium perferendis sapiente excepturi.</p>
+    
+</body>
+</html>
+
+<script>
+
+    // console.log("Welcome Everyone!")
+
+    // var num1 = 45, num2 = 45
+    // console.log(num1 + num2)
+
+    // function greeting(msg){
+    //     console.log(msg)
+    // }
+
+    // greeting("Welcome Students")
+    
+
+    //How html will communicate to js and vice versa?
+    //HTML: collection/set of tags/elements
+    //JS: collection of object and functions.
+
+
+    //Important: When html document loads in browser internally it gets converted to document object.
+
+    console.log(document)
+    console.log(document.title)
+
+    console.log(document.body.childNodes)
+    console.log(document.body.childNodes[1].innerText)
+
+    document.body.childNodes[1].innerText = "Are you getting guys?"
+    document.body.childNodes[1].style.backgroundColor = "red"
+    document.body.childNodes[1].style.color = "white"
+    document.body.childNodes[1].style.padding = "10px"
+
+
+    //Above is tds process to communicate with html elements, what is the solution:
+    //Document object having built in methods to easily select particular html element.
+
+</script>

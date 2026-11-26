@@ -66,13 +66,6 @@ nums.splice(2, 0, 10)
 console.log(nums)
 
 
-
-
-
-
-
-
-
 //When to choose array?
 //1. Array is best for similar type of data(homogenous data), and worst for 
 //different type of data(hatrogenous data)

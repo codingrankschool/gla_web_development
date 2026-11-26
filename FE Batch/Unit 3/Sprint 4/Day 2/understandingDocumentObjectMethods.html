@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Document Object Methods</title>
+</head>
+<body>
+
+    <h1 id="headingOne">Welcome To DOM 1</h1>
+    <p>I'm paragraph 1</p>
+    <p class="common">I'm common paragraph 1</p>
+    <p class="common">I'm common paragraph 2</p>
+
+    <div id="container">
+        <h2>I'm heading two</h2>
+        <p>I'm paragraph 2</p>
+        <p>I'm paragraph 3</p>
+    </div>
+
+    <input type="text" id="name" value="Rakesh">
+    
+</body>
+</html>
+
+
+<script>
+
+    //There are lots of method support using those we can select any html element very easily.
+    //1. getElementById("idName") => it selects first matching element.
+
+    // var headingOne = document.getElementById("headingOne")
+    // console.log(headingOne)
+    // headingOne.innerText = "Welcome Ji"
+
+    // document.getElementById("headingOne").innerText = "Welcome Ji"
+    // var inputEle = document.getElementById("name")
+    // console.log(inputEle.value)
+
+
+    //2. getElementsByClassName() -> it returns array of matching element.
+    // var allParas = document.getElementsByClassName("common")
+    // console.log(allParas)
+    // allParas[1].innerText = "Aryan"
+
+
+    //3. getElementsByTagName() -> it returns array of matching element.
+
+    // var allParas = document.getElementsByTagName("p")
+    // console.log(allParas)
+
+    // var allInputEles = document.getElementsByTagName("input")
+    // console.log(allInputEles)
+
+    //But above methods having some limitationas they can not select any html element using combinators and attributes.
+    //Modern Appraoch:
+    //1. querySelector() -> It returns always first matching element by id, class, attribute, and combinator and others
+    //2. querySelectorAll() -> it returns array of matching html element by id, class, tag, attributes and combinators.
+
+
+    //tag name:
+    var firstPara = document.querySelector("p")
+    console.log(firstPara)
+
+
+    //class name:
+    var firstCommonPara = document.querySelector(".common")
+    console.log(firstCommonPara)
+
+    //id name:
+    var firstMatchingId = document.querySelector("#headingOne")
+    console.log(firstMatchingId)
+
+    //attribute name:
+    var firstMatchingInput = document.querySelector('input[type="text"]')
+    console.log(firstMatchingInput)
+
+     //using combinator name:
+    var firstMatchingPChild = document.querySelector('#container>p')
+    console.log(firstMatchingPChild)
+
+    //2. querySelectorAll() -> it returns always arary.
+    
+ </script>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taking value from input elements</title>
+
+    <style>
+
+        *{
+            margin: 10;
+        }
+
+        #inputContainer{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        button{
+            background-color: greenyellow;
+            border: none;
+            padding: 8px 0px;
+        }
+
+        #studentContainer{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        #studentContainer>div{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h2>Student Registration</h2>
+    <hr>
+
+    <div id="inputContainer">
+        <input type="text" name="name" id="name" placeholder="Enter Name">
+
+        <input type="email" name="email" id="email" placeholder="Enter Email">
+
+        <input type="password" name="password" id="password" placeholder="Enter Password">
+
+        <select name="city" id="city">
+            <option value="">City</option>
+            <option value="noida">Noida</option>
+            <option value="delhi">Delhi</option>
+        </select>
+
+        <button id="submit-btn">Submit</button>
+    </div>
+
+    <hr>
+    <div id="studentContainer">
+        
+    </div>
+
+</body>
+
+</html>
+
+<script>
+
+    var submitBtn = document.getElementById("submit-btn")
+    
+    submitBtn.addEventListener("click", function(){
+
+        // var nameBox = document.getElementById("name")
+        // var emailBox = document.getElementById("email")
+        // var passwordBox = document.getElementById("password")
+        // var cityBox = document.getElementById("city")
+
+        // var name = nameBox.value
+        // var email = emailBox.value
+        // var password = passwordBox.value
+        // var city = cityBox.value
+
+        // var name = document.getElementById("name").value
+        // var email = document.getElementById("email").value
+        // var password = document.getElementById("password").value
+        // var city = document.getElementById("city").value
+
+        var student = {
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            password: document.getElementById("password").value,
+            city: document.getElementById("city").value
+
+        }
+
+        if(!student.name || !student.email || !student.password || !student.city){
+            alert("All fields required")
+            return
+        }
+
+        console.log(student)
+        displayStudent(student)
+
+    })
+
+   var studentContainer = document.getElementById("studentContainer")
+
+   function displayStudent(student){
+
+        var studentCard = document.createElement("div")
+
+        var studentName = document.createElement("h2")
+        studentName.innerText = student.name
+
+        var studentEmail = document.createElement("p")
+        studentEmail.innerText = student.email
+
+        var studentCity = document.createElement("p")
+        studentCity.innerText = student.city
+
+        studentCard.append(studentName, studentEmail, studentCity)
+
+        studentContainer.append(studentCard)
+   }
+
+</script>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Document Object</title>
+</head>
+<body>
+
+    <h1>Welcome to DOM</h1>
+    <h1>Welcome to DOM 2</h1>
+    <p id="special">I'm special Paragraph 1</p>
+    <p id="special">I'm special Paragraph 2</p>
+    <p class="common">I'm paragraph</p>
+    <input type="text">
+    
+    
+</body>
+</html>
+
+<script>
+
+    //Document methods:
+    //1. getElementById("idName")
+    // var para = document.getElementById("special")
+    // console.log(para)
+    // // para.innerText = "Super Special Paragraph"
+
+    // //Note: it selects first element with matching id
+
+    // //2. getElementsByTagName("tagName") -> it always returns array.
+
+    // var h1Tags = document.getElementsByTagName("h1")
+    // // console.log(h1Tags)
+    // h1Tags[0].innerText = "Welcome Ji"
+    // h1Tags[0].textContent = "Welcome Ji"
+
+    // //3. getElementsByClassName() -> it always returns array.
+    // var pTags = document.getElementsByClassName("common")
+    // console.log(pTags)
+    // pTags[0].innerText = "Changed"
+    // pTags[0].style.backgroundColor = "yellow"
+
+    //In above three methods, they can only select by their requirement what if we want to select by combinators, and attributes.
+    //Solution: querySelector(), querySelectorAll()
+    //1. querySelector() -> it returns first matching element
+    //2. querySelectorAll() -> it always returns array.
+
+    //tag name
+    var firstH1 = document.querySelector("h1")
+    console.log(firstH1)
+
+    //id name
+    var specialParas = document.querySelector("#special")
+    console.log(specialParas)
+
+
+    //class name
+    var commonParas = document.querySelector(".common")
+    console.log(commonParas)
+
+
+    //using combinator
+    var allParaChilds = document.querySelector("body>p")
+    console.log(allParaChilds)
+
+    //using attribute
+    var input = document.querySelector('input[type="text"]')
+    console.log(input)
+
+    //Note: querySelectorAll() -> also work the same way but returns array of elements
+
+    var allParas = document.querySelectorAll("p")
+    console.log(allParas)
+    
+    
+
+
+
+</script>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Events in DOM</title>
+</head>
+<body>
+
+    <button 
+    onmouseleave="mouseLeaveFun()" 
+    onmouseenter="mouseEnterFun()" 
+    ondblclick="dblClickFun()" 
+    onclick="clickFun()">
+    Click</button>
+
+    <input id="search" 
+    oninput="enterFun()" type="search">
+    
+</body>
+</html>
+
+<script>
+
+    var body = document.querySelector("body")
+
+    function clickFun(){
+        // console.log("Somebody clicked on button")
+        // alert("Somebody clicked")
+        body.style.backgroundColor = "red"
+    }
+
+
+    function dblClickFun(){
+        body.style.backgroundColor = "yellow"
+    }
+
+    function mouseEnterFun(){
+        body.style.backgroundColor = "pink"
+
+    }
+
+    function mouseLeaveFun(){
+        body.style.backgroundColor = "teal"
+    }
+
+    // var inputValue = []
+    function enterFun(){
+        //console.log("Somebody entered")
+        var input = document.getElementById("search")
+        // inputValue.push(input.value)
+        console.log(input.value)
+    }
+
+
+</script>

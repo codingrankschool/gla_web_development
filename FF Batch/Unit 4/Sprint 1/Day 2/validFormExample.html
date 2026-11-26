@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taking value from input elements</title>
+
+    <style>
+
+        *{
+            margin: 10;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        button{
+            background-color: greenyellow;
+            border: none;
+            padding: 8px 0px;
+        }
+
+        #studentContainer{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        #studentContainer>div{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h2>Student Registration</h2>
+    <hr>
+
+    <form>
+
+        <input type="text" name="name" id="name" placeholder="Enter Name" required>
+
+        <input type="email" name="email" id="email" placeholder="Enter Email" required>
+
+        <input type="password" name="password" id="password" placeholder="Enter Password" required>
+
+        <select name="city" id="city">
+            <option value="">City</option>
+            <option value="noida">Noida</option>
+            <option value="delhi">Delhi</option>
+        </select>
+
+        <input type="submit">
+    </form>
+
+    <hr>
+    <div id="studentContainer">
+        
+    </div>
+
+</body>
+
+</html>
+
+<script>
+
+    var form = document.querySelector("form")
+    
+    form.addEventListener("submit", function(event){
+
+        //it will prevent default behavior of form
+        event.preventDefault()
+
+        var student = {
+            name: form.name.value,
+            email: form.email.value,
+            password: form.password.value,
+            city: form.city.value
+
+        }
+
+        // if(!student.name || !student.email || !student.password || !student.city){
+        //     alert("All fields required")
+        //     return
+        // }
+
+        console.log(student)
+        displayStudent(student)
+
+    })
+
+   var studentContainer = document.getElementById("studentContainer")
+
+   function displayStudent(student){
+
+        var studentCard = document.createElement("div")
+
+        var studentName = document.createElement("h2")
+        studentName.innerText = student.name
+
+        var studentEmail = document.createElement("p")
+        studentEmail.innerText = student.email
+
+        var studentCity = document.createElement("p")
+        studentCity.innerText = student.city
+
+        studentCard.append(studentName, studentEmail, studentCity)
+
+        studentContainer.append(studentCard)
+   }
+
+</script>

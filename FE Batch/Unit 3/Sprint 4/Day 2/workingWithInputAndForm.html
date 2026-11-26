@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding taking input from input and form</title>
+
+    <style>
+
+        #result{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px;
+            border: 1px solid red;
+            border-radius: 20px;
+            opacity: 0;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <input type="text" id="name" placeholder="Enter Name">
+    <br>
+    <input type="email" id="email" placeholder="Enter Email">
+    <br>
+    <input type="password" id="password" placeholder="Enter Password">
+    <br>
+    <select name="city" id="city">
+        <option value="#">City</option>
+        <option value="noida">Noida</option>
+        <option value="delhi">Delhi</option>
+    </select>
+    <br>
+
+    <button id="submit-btn">Submit</button>
+
+
+    <div id="result">
+
+    </div>
+    
+</body>
+</html>
+
+<script>
+
+    var btn = document.querySelector("#submit-btn")
+
+    btn.addEventListener('click', function(){
+        // var nameBox = document.getElementById("name")
+        // var emailBox = document.getElementById("email")
+        // var passwordBox = document.getElementById("password")
+        // var cityBox = document.getElementById("city")
+
+        // var name = nameBox.value
+        // var email = emailBox.value
+        // var password = passwordBox.value
+        // var city = cityBox.value
+
+
+        //  var name = document.getElementById("name").value
+        // var email = document.getElementById("email").value
+        // var password = document.getElementById("password").value
+        // var city = document.getElementById("city").value
+
+
+        //convert to object
+
+        // var student = {
+        //     studentName: name,
+        //     studentEmail: email,
+        //     studentPassword: password,
+        //     studentCity: city
+        // }
+
+
+         var student = {
+            studentName: document.getElementById("name").value,
+            studentEmail: document.getElementById("email").value,
+            studentPassword: document.getElementById("password").value,
+            studentCity: document.getElementById("city").value
+        }
+
+        if(!student.studentName || !student.studentPassword || !student.studentEmail || !student.studentCity){
+            alert("Please fill all the fields first")
+            return;
+        }
+
+        displayStudent(student)
+
+    })
+
+    var resultContainer = document.getElementById("result")
+
+    function displayStudent(student){
+        //how to create html element using js:
+        //document.createElement()
+        var name = document.createElement("h2")
+        var email = document.createElement("p")
+        var city = document.createElement("p")
+
+        name.innerText = student.studentName
+        email.innerText = student.studentEmail
+        city.innerText = student.studentCity
+
+        resultContainer.style.opacity = "1"
+        resultContainer.append(name, email, city)
+
+    }
+
+
+
+</script>
