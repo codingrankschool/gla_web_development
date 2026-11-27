@@ -1,0 +1,468 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f1f5f9;
+            padding: 40px 15px;
+            color: #1e293b;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #1e293b;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #64748b;
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        input, select {
+            padding: 13px;
+            border: 1px solid #cbd5e1;
+            border-radius: 7px;
+            font-size: 15px;
+            outline: none;
+        }
+
+        input[name="task"] {
+            flex: 2;
+            min-width: 180px;
+        }
+
+        select {
+            flex: 1;
+            min-width: 130px;
+            background: white;
+        }
+
+        input:focus, select:focus {
+            border-color: #2563eb;
+        }
+
+        .submit-btn {
+            background: #2563eb;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 13px 22px;
+            border-radius: 7px;
+            font-weight: bold;
+        }
+
+        .submit-btn:hover {
+            background: #1d4ed8;
+        }
+
+        .task-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .task-info h3 {
+            font-size: 18px;
+        }
+
+        .count {
+            background: #dbeafe;
+            color: #1d4ed8;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 550px;
+        }
+
+        thead {
+            background: #1e293b;
+            color: white;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        tbody tr:hover {
+            background: #f8fafc;
+        }
+
+        .priority {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .low {
+            background: #dcfce7;
+            color: #15803d;
+        }
+
+        .medium {
+            background: #fef3c7;
+            color: #b45309;
+        }
+
+        .high {
+            background: #fee2e2;
+            color: #dc2626;
+        }
+
+        .action-btn {
+            border: none;
+            padding: 8px 13px;
+            border-radius: 5px;
+            cursor: pointer;
+            color: white;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+
+        .edit-btn {
+            background: #0ea5e9;
+        }
+
+        .edit-btn:hover {
+            background: #0284c7;
+        }
+
+        .delete-btn {
+            background: #ef4444;
+        }
+
+        .delete-btn:hover {
+            background: #dc2626;
+        }
+
+        .empty-message {
+            text-align: center;
+            padding: 25px;
+            color: #94a3b8;
+        }
+
+        @media(max-width: 600px) {
+            .container {
+                padding: 20px 15px;
+            }
+
+            form {
+                flex-direction: column;
+            }
+
+            form input, form select, form button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>My Todo Application</h1>
+        <p class="subtitle">Organize your tasks and stay productive!</p>
+
+        <form id="todo-form">
+
+            <input
+                type="text"
+                name="task"
+                placeholder="Enter your task..."
+                required
+            >
+
+            <select name="priority" required>
+                <option value="">Select Priority</option>
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+
+            <button type="submit" class="submit-btn">
+                Add Todo
+            </button>
+
+        </form>
+
+        <div class="task-info">
+            <h3>All Tasks</h3>
+            <span class="count">
+                Total: <span id="task-count">0</span>
+            </span>
+        </div>
+
+        <div class="table-wrapper">
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Task</th>
+                        <th>Priority</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+
+                <tbody id="all-tasks">
+                </tbody>
+
+            </table>
+        </div>
+
+    </div>
+
+<script>
+
+    var form = document.querySelector("#todo-form");
+
+    var tasks = [];
+
+    // -1 means we are adding a new task.
+    // Otherwise, it stores the index of the task being edited.
+    var editIndex = -1;
+
+    var taskContainer = document.getElementById("all-tasks");
+
+    var submitBtn = document.querySelector(".submit-btn");
+
+    // ADD AND UPDATE TASK
+    form.addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+        var taskName = form.task.value.trim();
+        var priority = form.priority.value;
+
+        if (taskName === "" || priority === "") {
+            alert("Please enter task and select priority!");
+            return;
+        }
+
+        if (editIndex === -1) {
+
+            // ADD NEW TASK
+            var task = {
+                id: Date.now(),
+                task: taskName,
+                priority: priority
+            };
+
+            tasks.push(task);
+
+        } else {
+
+            // UPDATE EXISTING TASK
+            tasks[editIndex].task = taskName;
+            tasks[editIndex].priority = priority;
+
+            editIndex = -1;
+
+            submitBtn.innerText = "Add Todo";
+        }
+
+        form.reset();
+
+        printAllTodos(tasks);
+
+    });
+
+
+    // DISPLAY ALL TASKS
+    function printAllTodos(allTasks) {
+
+        taskContainer.innerHTML = "";
+
+        document.getElementById("task-count").innerText =
+            allTasks.length;
+
+        if (allTasks.length === 0) {
+
+            var emptyRow = document.createElement("tr");
+            var emptyCell = document.createElement("td");
+
+            emptyCell.colSpan = 4;
+            emptyCell.className = "empty-message";
+            emptyCell.innerText = "No tasks available. Add your first task!";
+
+            emptyRow.append(emptyCell);
+            taskContainer.append(emptyRow);
+
+            return;
+        }
+
+        allTasks.forEach(function(todo, index) {
+
+            var row = document.createElement("tr");
+
+            var taskId = document.createElement("td");
+            taskId.innerText = todo.id;
+
+            var taskTitle = document.createElement("td");
+            taskTitle.innerText = todo.task;
+
+            var taskPriority = document.createElement("td");
+
+            var priorityBadge = document.createElement("span");
+
+            priorityBadge.innerText = todo.priority.toUpperCase();
+            priorityBadge.className = "priority " + todo.priority;
+
+            taskPriority.append(priorityBadge);
+
+            var taskActions = document.createElement("td");
+
+            // EDIT BUTTON
+            var editBtn = document.createElement("button");
+
+            editBtn.innerText = "Edit";
+            editBtn.className = "action-btn edit-btn";
+
+            editBtn.addEventListener("click", function() {
+
+                editTask(index);
+
+            });
+
+
+            // DELETE BUTTON
+            var deleteBtn = document.createElement("button");
+
+            deleteBtn.innerText = "Delete";
+            deleteBtn.className = "action-btn delete-btn";
+
+            deleteBtn.addEventListener("click", function() {
+
+                deleteTask(index);
+
+            });
+
+
+            taskActions.append(editBtn, deleteBtn);
+
+            row.append(
+                taskId,
+                taskTitle,
+                taskPriority,
+                taskActions
+            );
+
+            taskContainer.append(row);
+
+        });
+
+    }
+
+
+    // EDIT TASK FUNCTION
+    function editTask(index) {
+
+        // Get existing task
+        var selectedTask = tasks[index];
+
+        // Fill existing data inside form
+        form.task.value = selectedTask.task;
+
+        form.priority.value = selectedTask.priority;
+
+        // Store index of selected task
+        editIndex = index;
+
+        // Change button text
+        submitBtn.innerText = "Update Todo";
+
+        // Scroll to form
+        form.scrollIntoView({
+            behavior: "smooth",
+            block: "center"
+        });
+
+        // Focus on task input
+        form.task.focus();
+
+    }
+
+
+    // DELETE TASK FUNCTION
+    function deleteTask(index) {
+
+        var confirmation = confirm(
+            "Are you sure you want to delete this task?"
+        );
+
+        if (confirmation) {
+
+            tasks.splice(index, 1);
+
+            // If the task being edited was deleted, reset the form
+            if (editIndex === index) {
+
+                editIndex = -1;
+                form.reset();
+                submitBtn.innerText = "Add Todo";
+
+            } else if (editIndex > index) {
+
+                editIndex--;
+
+            }
+
+            printAllTodos(tasks);
+
+        }
+
+    }
+
+
+    // INITIAL DISPLAY
+    printAllTodos(tasks);
+
+</script>
+
+</body>
+</html>

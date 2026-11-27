@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Local Storage.</title>
+</head>
+<body>
+
+    <h3>Undersntanding Local Storage</h3>
+    <hr>
+    
+</body>
+</html>
+
+<script>
+
+    //localstorage: its space provided by every browser for storing less data between 5 to 10 mb in key-value pair.
+    //where key and value both are in string format.
+
+    //how to add to localstorage.
+    localStorage.setItem("name", "Aradhya Tripathi")
+
+    //how to get value
+    var value = localStorage.getItem("name")
+    console.log(value)
+    console.log(typeof value)
+
+    localStorage.setItem("age", 45)
+    console.log(localStorage.getItem("age"))
+
+    console.log(typeof localStorage.getItem("age"))
+
+
+    localStorage.setItem("student", {name:"Rakesh", age: 67, skills: ["HTML", "CSS"]})
+
+    console.log(typeof localStorage.getItem("student"))
+
+
+
+</script>
