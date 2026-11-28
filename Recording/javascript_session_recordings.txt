@@ -10,3 +10,11 @@ https://youtu.be/xwAUukVg2b8?si=uEE_Zm8vIFROJyLI
 https://youtu.be/Q_-kKJMQrw8?si=dRVDAD2NzY1lfO5E
 6. Object:
 https://youtu.be/K0a_m05-fv0?si=fFjAnUE6neXimTcj
+7. Higher Order Functions:
+https://youtu.be/pJEMq09rSos
+8. DOM Part - 1, Introduction, Document Object, its Important Methods
+https://youtu.be/-4xBMhhDybs
+9. JavaScript DOM Part 2 | Events, Form Handling & Form Validation
+https://youtu.be/xMyIu1Az9ZM
+10. JavaScript DOM Part 3 | Todo Application with CRUD Operations
+https://youtu.be/OvYXfOiw_Ks
